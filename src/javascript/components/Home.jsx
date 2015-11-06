@@ -1,55 +1,13 @@
 /**
  * @jsx React.DOM
  */
-var React         = require('react')
-var Carousel      = require('./Carousel')
-var AccountFields = require('./AccountFields')
-var Confirmation  = require('./Confirmation')
-var Success       = require('./Success')
-var SurveyFields  = require('./SurveyFields')
-var assign        = require('object-assign')
-
-// Idealy, these form values would be saved in another
-// sort of persistence, like a Store via Flux pattern
-var fieldValues = {
-  name     : null,
-  email    : null,
-  password : null,
-  age      : null,
-  colors   : []
-}
+var React         = require('react');
 
 var Home = React.createClass({
   getInitialState: function() {
     return {
-      step : 1
+      
     }
-  },
-
-  saveValues: function(field_value) {
-    return function() {
-      fieldValues = assign({}, fieldValues, field_value)
-    }.bind(this)()
-  },
-
-  nextStep: function() {
-    this.setState({
-      step : this.state.step + 1
-    })
-  },
-
-  previousStep: function() {
-    this.setState({
-      step : this.state.step - 1
-    })
-  },
-
-  submitRegistration: function() {
-    // Handle via ajax submitting the user data, upon
-    // success return this.nextStop(). If it fails,
-    // show the user the error but don't advance
-
-    this.nextStep()
   },
 
   showStep: function() {
@@ -74,14 +32,12 @@ var Home = React.createClass({
   },
 
   render: function() {
-    var style = {
-      width : (this.state.step / 4 * 100) + '%'
-    }
-
     return (
       <main>
-       	woohoo
-        <Carousel/>
+          <div className="row">
+            <div className="one-half column">1/2</div>
+            <div className="one-half column">1/2</div>
+          </div>
 
       </main>
     )
