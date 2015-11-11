@@ -1,3 +1,5 @@
+@import "landing-page";
+
 // Colors
 $green  : #3aad91;
 $blue   : #2989c6;
@@ -6,3 +8,13 @@ $orange : #fb6733;
 $red    : #d33847;
 $grey   : #4c5e65;
 
+.row{
+	background-color: $orange;
+	.column{
+		border: 1px solid $grey;
+	}
+}
+
+
+
+   

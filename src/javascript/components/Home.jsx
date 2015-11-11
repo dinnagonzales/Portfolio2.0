@@ -38,7 +38,13 @@ var Home = React.createClass({
             <div className="one-half column">1/2</div>
             <div className="one-half column">1/2</div>
           </div>
-
+        
+        <div className="photos">
+          <img className='photo'  src="https://storyboxcollection.files.wordpress.com/2015/10/engagedjs-49.jpg?w=620" alt="" />
+          <img className='photo'  src="https://storyboxcollection.files.wordpress.com/2015/10/engagedjs-86.jpg?w=620" alt="" />
+          <img className='photo'  src="https://storyboxcollection.files.wordpress.com/2015/10/engagedjs-60.jpg?w=620" alt="" />
+          <img className='photo'  src="https://storyboxcollection.files.wordpress.com/2015/10/engagedjs-130.jpg?w=620" alt="" />
+        </div>
       </main>
     )
   }

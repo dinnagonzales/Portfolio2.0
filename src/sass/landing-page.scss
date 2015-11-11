@@ -1,0 +1,33 @@
+$slides: 4;
+$time_per_slide: 4;
+// total time needed for full animation
+$total_animation_time: $time_per_slide * $slides;
+
+.photos{
+  margin:50px auto;
+  width:640px;
+  height:500px;
+  overflow:hidden;
+  position:relative;
+
+}
+.photo{
+  position:absolute;
+  animation:round #{$total_animation_time}s infinite;
+  opacity:0;
+  
+}
+@keyframes round{   
+  25%{
+    opacity:1;
+  }
+  40%{
+    opacity:0;
+  }
+} 
+
+@for $index from 1 to $slides + 1{
+  img:nth-child(#{$index}){
+    animation-delay:#{$total_animation_time - $time_per_slide * $index}s
+  }
+}
