@@ -8,9 +8,14 @@ $orange : #fb6733;
 $red    : #d33847;
 $grey   : #4c5e65;
 
+body{
+	font-family: 'Open Sans', sans-serif;
+}
 .row{
-	background-color: $orange;
+	z-index: 100;
 	.column{
+		background-color: black;
+		color: white;
 		border: 1px solid $grey;
 	}
 }

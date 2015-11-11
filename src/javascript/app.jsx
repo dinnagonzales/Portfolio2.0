@@ -2,11 +2,11 @@
  * @jsx React.DOM
  */
 var React = require('react')
-var Home = require('./components/home')
+var Index = require('./components/index')
 
 window.onload = function() {
   React.render(
-    <Home />,
-    document.getElementById('registration-form')
+    <Index />,
+    document.getElementById('page')
   )
 }
