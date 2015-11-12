@@ -2,20 +2,41 @@
  * @jsx React.DOM
  */
 var React = require('react');
+var Icon = require('./icon');
 
 var Navigation = React.createClass({
-
+  goTo: function(e){
+    var page = e.target.innerHTML;
+    this.props.goTo(page);
+  },
   render: function() {
+    var rowClassName = this.props.rowClass + ' row';
     return (
-      
-      <div className='navigation'>
-        <nav className='row'>
-          <div onClick={ this.props.goTo.bind(this, 'home') }>home</div>
-          <div onClick={ this.props.goTo.bind(this,'gallery')}>gallery</div>
-          <div onClick={ this.props.goTo.bind(this,'blog')}>blog</div>
-          <div onClick={ this.props.goTo.bind(this,'about')}>about</div>
-          <div onClick={ this.props.goTo.bind(this,'contact')}>contact</div>
-        </nav>
+      <div>
+        <div className='menu hide-for-medium-up'>
+          <span>Menu</span><Icon type='menu' />
+        </div>
+        <div className={ this.props.navClass }> 
+          <nav className={ rowClassName }>
+            <div className='medium-2 large-2 column' onClick={ this.goTo }><span>home</span></div>
+            <div className='medium-2 large-2 column' onClick={ this.goTo }><span>gallery</span></div>
+            <div className='medium-2 large-2 column' onClick={ this.goTo }><span>blog</span></div>
+            <div className='medium-2 large-2 column' onClick={ this.goTo }><span>about</span></div>
+            <div className='medium-2 large-2 column' onClick={ this.goTo }><span>contact</span></div>
+            <div className='medium-2 large-2 column social'>
+              <a href='https://www.instagram.com/ellienh/' target='_blank'>
+                <div className='facebook'>
+                  <Icon type='facebook' />
+                </div>
+              </a>
+              <a href='https://www.instagram.com/ellienh/' target='_blank'>
+                <div className='instagram'>
+                  <Icon type='instagram' />
+                </div>
+              </a>
+            </div>
+          </nav>
+        </div>
       </div>
     );
   }

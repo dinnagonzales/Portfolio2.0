@@ -16,9 +16,10 @@ var Index = React.createClass({
     };
   },
   renderNavigation: function(){
-      if (this.state.page !== 'home'){
-        return <Navigation goTo={ this.goTo }/>;
-      }
+      var homePage = this.state.page === 'home';
+      var navClass= homePage ? 'show-for-medium-up home-navigation' : 'show-for-medium-up pages-navigation';
+      var rowClass= homePage ? 'home-nav' : 'page-nav';
+      return <Navigation navClass={ navClass } rowClass={ rowClass } goTo={ this.goTo }/>;
   },
   renderPage: function() {
     switch (this.state.page) {
@@ -41,7 +42,7 @@ var Index = React.createClass({
   },
   render: function() {
     return (
-      <div>
+      <div className="container">
         { this.renderNavigation() }
         { this.renderPage() }
       </div>

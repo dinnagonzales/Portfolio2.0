@@ -1,0 +1,86 @@
+$grey   : #d7d7d7;
+.menu{
+	cursor: pointer;
+
+	position: fixed;
+	top: 2rem;
+	right: 2rem;
+
+	span{
+		text-transform: uppercase;
+		letter-spacing: 0.32rem;
+		font-size: 0.75rem;
+	}
+	& > div{
+		display: inline-block;
+		width: 1rem;
+		position: relative;
+		top: 0.2rem;
+		left: 0.5rem;
+	}
+}
+
+.home-navigation{
+	height: 4rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #FFFFFF;
+
+	.home-nav{	
+		height: 3rem;
+		margin-top: 1.4rem;
+
+		& > div{
+			text-align: center;
+			text-transform: uppercase;
+			letter-spacing: 0.32rem;
+			font-size: 0.75rem;
+
+			& > span{
+				cursor: pointer;
+			}
+		}
+	}	
+}
+
+.social{
+	text-align: left !important;
+
+	& > a > div{
+		display: inline-block;
+		cursor: pointer;
+	}
+
+	.facebook, .instagram{
+		width: 0.9rem;
+		margin-right: 2rem;
+	}
+
+	.facebook:hover, .instagram:hover{
+		g{
+			fill: $grey ;
+		}
+	}
+	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+		.facebook, .instagram{
+			margin-right: 0.5rem;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

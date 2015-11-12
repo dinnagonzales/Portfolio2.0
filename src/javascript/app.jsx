@@ -7,6 +7,6 @@ var Index = require('./components/index')
 window.onload = function() {
   React.render(
     <Index />,
-    document.getElementById('page')
+    document.getElementById('main-container')
   )
 }

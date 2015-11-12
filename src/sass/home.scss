@@ -3,18 +3,6 @@ $time_per_slide: 4;
 // total time needed for full animation
 $total_animation_time: $time_per_slide * $slides;
 
-.home-nav{
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-
-  & > div{
-    background-color: white;
-    display: inline-block;
-    border: 1px solid green;
-  }
-}
-
 .photos{
   z-index: -1;
   overflow:hidden;

@@ -1,4 +1,5 @@
-@import "landing-page";
+@import "navigation",
+		"home";
 
 // Colors
 $green  : #3aad91;
@@ -6,20 +7,11 @@ $blue   : #2989c6;
 $grey   : #414141;
 $orange : #fb6733;
 $red    : #d33847;
-$grey   : #4c5e65;
+$grey   : #d7d7d7;
 
 body{
 	font-family: 'Open Sans', sans-serif;
 }
-.row{
-	z-index: 100;
-	.column{
-		background-color: black;
-		color: white;
-		border: 1px solid $grey;
-	}
-}
-
 
 
    
