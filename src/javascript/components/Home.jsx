@@ -2,7 +2,6 @@
  * @jsx React.DOM
  */
 var React = require('react');
-var Icon = require('./icon');
 
 var Home = React.createClass({
   goTo: function(e){

@@ -1,4 +1,5 @@
 $grey   : #d7d7d7;
+
 .menu{
 	cursor: pointer;
 
@@ -20,6 +21,24 @@ $grey   : #d7d7d7;
 	}
 }
 
+.pages-navigation{
+	padding: 5rem 0 0 20rem;
+
+	.facebook, .instagram{
+		margin-right: 0.5rem !important;
+	}
+}
+.navigation{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.32rem;
+	font-size: 0.75rem;
+
+	span{
+		cursor: pointer;
+	}
+}
+
 .home-navigation{
 	height: 4rem;
 	position: fixed;
@@ -31,17 +50,6 @@ $grey   : #d7d7d7;
 	.home-nav{	
 		height: 3rem;
 		margin-top: 1.4rem;
-
-		& > div{
-			text-align: center;
-			text-transform: uppercase;
-			letter-spacing: 0.32rem;
-			font-size: 0.75rem;
-
-			& > span{
-				cursor: pointer;
-			}
-		}
 	}	
 }
 

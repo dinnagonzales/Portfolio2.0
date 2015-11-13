@@ -17,9 +17,19 @@ var Index = React.createClass({
   },
   renderNavigation: function(){
       var homePage = this.state.page === 'home';
-      var navClass= homePage ? 'show-for-medium-up home-navigation' : 'show-for-medium-up pages-navigation';
-      var rowClass= homePage ? 'home-nav' : 'page-nav';
-      return <Navigation navClass={ navClass } rowClass={ rowClass } goTo={ this.goTo }/>;
+      var navClass= homePage ? 'show-for-medium-up home-navigation' : 'show-for-large-up pages-navigation';
+      var rowClass= homePage ? 'navigation home-nav' : 'navigation page-nav';
+      var menuClass = homePage ? 'menu hide-for-medium-up' : 'menu hide-for-large-up';
+      return <Navigation navClass={ navClass } rowClass={ rowClass } menuClass={ menuClass } goTo={ this.goTo }/>;
+  },
+  renderFooter: function(){
+    if(this.state.page !== 'home'){
+      return (    
+        <div className='small-12 small-centered columns footer'>
+          <span>Story Box Collection © 2015</span>
+        </div>
+      );
+    }
   },
   renderPage: function() {
     switch (this.state.page) {
@@ -45,6 +55,7 @@ var Index = React.createClass({
       <div className="container">
         { this.renderNavigation() }
         { this.renderPage() }
+        { this.renderFooter() }
       </div>
     );
   }

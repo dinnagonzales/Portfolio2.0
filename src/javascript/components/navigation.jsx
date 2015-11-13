@@ -2,7 +2,7 @@
  * @jsx React.DOM
  */
 var React = require('react');
-var Icon = require('./icon');
+var Icon = require('./common/icon');
 
 var Navigation = React.createClass({
   goTo: function(e){
@@ -12,15 +12,19 @@ var Navigation = React.createClass({
   render: function() {
     var rowClassName = this.props.rowClass + ' row';
     return (
-      <div>
-        <div className='menu hide-for-medium-up'>
+      <div className='navigation-bar'>
+        <div className={ this.props.menuClass} >
           <span>Menu</span><Icon type='menu' />
         </div>
         <div className={ this.props.navClass }> 
           <nav className={ rowClassName }>
             <div className='medium-2 large-2 column' onClick={ this.goTo }><span>home</span></div>
             <div className='medium-2 large-2 column' onClick={ this.goTo }><span>gallery</span></div>
-            <div className='medium-2 large-2 column' onClick={ this.goTo }><span>blog</span></div>
+            <a href='http://storyboxcollection.com/' target='_blank'>
+              <div className='medium-2 large-2 column'>
+                <span>blog</span>
+              </div>
+            </a>
             <div className='medium-2 large-2 column' onClick={ this.goTo }><span>about</span></div>
             <div className='medium-2 large-2 column' onClick={ this.goTo }><span>contact</span></div>
             <div className='medium-2 large-2 column social'>
