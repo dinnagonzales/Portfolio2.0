@@ -1,6 +1,7 @@
 @import "navigation",
 		"home",
-		"gallery";
+		"gallery",
+		"about";
 
 // Colors
 $green  : #3aad91;
@@ -30,3 +31,10 @@ a, a:hover{
 }
 
    
+h3{	
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1rem;
+	font-size: 0.9rem;
+	margin: 1rem auto 3rem;
+}

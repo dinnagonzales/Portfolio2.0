@@ -3,16 +3,18 @@ $time_per_slide: 4;
 // total time needed for full animation
 $total_animation_time: $time_per_slide * $slides;
 
-.photos{
-  z-index: -1;
-  overflow:hidden;
-  position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
-  height: 200%;
-
+@media only screen and (min-width: 64.063em) { 
+  .photos{
+    z-index: -1;
+    overflow:hidden;
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
 }
+
 .photo{
   z-index: -1;
   position:absolute;

@@ -29,11 +29,6 @@ var Navigation = React.createClass({
             <div className='medium-2 large-2 column' onClick={ this.goTo }><span>contact</span></div>
             <div className='medium-2 large-2 column social'>
               <a href='https://www.instagram.com/ellienh/' target='_blank'>
-                <div className='facebook'>
-                  <Icon type='facebook' />
-                </div>
-              </a>
-              <a href='https://www.instagram.com/ellienh/' target='_blank'>
                 <div className='instagram'>
                   <Icon type='instagram' />
                 </div>

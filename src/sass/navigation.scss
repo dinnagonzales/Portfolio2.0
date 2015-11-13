@@ -61,19 +61,13 @@ $grey   : #d7d7d7;
 		cursor: pointer;
 	}
 
-	.facebook, .instagram{
+	.instagram{
 		width: 0.9rem;
-		margin-right: 2rem;
 	}
 
-	.facebook:hover, .instagram:hover{
+	.instagram:hover{
 		g{
 			fill: $grey ;
-		}
-	}
-	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-		.facebook, .instagram{
-			margin-right: 0.5rem;
 		}
 	}
 }
