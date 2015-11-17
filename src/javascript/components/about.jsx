@@ -27,13 +27,14 @@ var About = React.createClass({
         	</p>
 
         	<div className='row about-icons'>
-        		<div className='medium-11 columns mail'>
+        		<div className='small-12 columns mail'>
         			<Icon type='mail'/>
         			<a href='mailto:ehernandez2388@gmail.com'>ehernandez2388@gmail.com</a>
         		</div>
-        		<div className='medium-1 columns instagram'>
+        		<div className='small-12 columns instagram'>
         			<a href='https://www.instagram.com/ellienh/' target='_blank'>
         				<Icon type='instagram' />
+                        <span>instagram.com/ellienh</span>
         			</a>
         		</div>
         	</div>

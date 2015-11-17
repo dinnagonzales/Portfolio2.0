@@ -3,6 +3,7 @@
  */
 var React = require('react');
 var Icon = require('./common/icon');
+var MobileNavigation = require('./mobile-navigation');
 
 var Navigation = React.createClass({
   goTo: function(e){
@@ -13,9 +14,7 @@ var Navigation = React.createClass({
     var rowClassName = this.props.rowClass + ' row';
     return (
       <div className='navigation-bar'>
-        <div className={ this.props.menuClass} >
-          <span>Menu</span><Icon type='menu' />
-        </div>
+        <MobileNavigation menuClass={ this.props.menuClass } goTo={this.props.goTo} />
         <div className={ this.props.navClass }> 
           <nav className={ rowClassName }>
             <div className='medium-2 large-2 column' onClick={ this.goTo }><span>home</span></div>

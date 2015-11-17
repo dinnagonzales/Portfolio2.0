@@ -1,4 +1,5 @@
 @import "navigation",
+		"mobile-navigation",
 		"home",
 		"gallery",
 		"about";
@@ -37,4 +38,11 @@ h3{
 	letter-spacing: 1rem;
 	font-size: 0.9rem;
 	margin: 1rem auto 3rem;
+}
+
+.home-footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }

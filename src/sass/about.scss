@@ -18,15 +18,18 @@ $grey: #d7d7d7;
 	}
 	.about-icons{
 		padding: 0 1rem;
+		font-size: 0.8rem;
+		letter-spacing: 0.1rem;
+		text-transform: uppercase;
 		
 		.mail{
 			cursor: pointer;
-			a{
+			
+			a {
 				position: relative;
 				top: -0.3rem;
 				left: 0.4rem;
-				font-size: 0.8rem;
-				text-transform: uppercase;
+				
 			}
 			a:hover{
 				color: $grey;
@@ -40,12 +43,21 @@ $grey: #d7d7d7;
 		}
 		.instagram{
 			cursor: pointer;
-		
+			span{
+				position: relative;
+				top: -0.3rem;
+				left: 0.4rem;
+			}
 		 	.icon{
 				width: 1rem;
+				display: inline-block;
 			}
-			.icon:hover{
-				fill: $grey;
+
+		}
+		.instagram:hover{
+			a{
+				color: $grey;
+
 			}
 		}
 	}
