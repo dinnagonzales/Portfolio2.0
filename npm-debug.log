@@ -1,0 +1,1437 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/dinnagonzales/.nvm/v0.10.40/bin/node',
+1 verbose cli   '/Users/dinnagonzales/.nvm/v0.10.40/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react@0.12.0' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'react@0.12.0', null ]
+6 verbose cache add name=undefined spec="react@0.12.0" args=["react@0.12.0",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'react@0.12.0',
+7 verbose parsed url   path: 'react@0.12.0',
+7 verbose parsed url   href: 'react@0.12.0' }
+8 verbose cache add name="react" spec="0.12.0" args=["react","0.12.0"]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '0.12.0',
+9 verbose parsed url   path: '0.12.0',
+9 verbose parsed url   href: '0.12.0' }
+10 verbose addNamed [ 'react', '0.12.0' ]
+11 verbose addNamed [ '0.12.0', '0.12.0' ]
+12 silly lockFile 899005cd-react-0-12-0 react@0.12.0
+13 verbose lock react@0.12.0 /Users/dinnagonzales/.npm/899005cd-react-0-12-0.lock
+14 verbose request where is /react
+15 verbose request registry https://registry.npmjs.org/
+16 verbose request id 8036873baadbb41a
+17 verbose url raw /react
+18 verbose url resolving [ 'https://registry.npmjs.org/', './react' ]
+19 verbose url resolved https://registry.npmjs.org/react
+20 verbose request where is https://registry.npmjs.org/react
+21 info trying registry request attempt 1 at 20:41:31
+22 verbose etag "8STGT6II3205QD9S5IBH0NED"
+23 http GET https://registry.npmjs.org/react
+24 http 304 https://registry.npmjs.org/react
+25 silly registry.get cb [ 304,
+25 silly registry.get   { date: 'Tue, 17 Nov 2015 04:41:39 GMT',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     'cache-control': 'max-age=60',
+25 silly registry.get     etag: '"8STGT6II3205QD9S5IBH0NED"',
+25 silly registry.get     age: '60',
+25 silly registry.get     connection: 'keep-alive',
+25 silly registry.get     'x-served-by': 'cache-sjc3128-SJC',
+25 silly registry.get     'x-cache': 'HIT',
+25 silly registry.get     'x-cache-hits': '1',
+25 silly registry.get     'x-timer': 'S1447735299.432750,VS0,VE0',
+25 silly registry.get     vary: 'Accept' } ]
+26 verbose etag https://registry.npmjs.org/react from cache
+27 silly lockFile e58bd35b-npmjs-org-react-react-0-12-0-tgz https://registry.npmjs.org/react/-/react-0.12.0.tgz
+28 verbose lock https://registry.npmjs.org/react/-/react-0.12.0.tgz /Users/dinnagonzales/.npm/e58bd35b-npmjs-org-react-react-0-12-0-tgz.lock
+29 verbose addRemoteTarball [ 'https://registry.npmjs.org/react/-/react-0.12.0.tgz',
+29 verbose addRemoteTarball   '4361809e9fc234fc89db4ebc087bdda07908a56b' ]
+30 info retry fetch attempt 1 at 20:41:32
+31 verbose fetch to= /var/folders/hf/2hnqh4wn0pz_yb69kzbcy8m00000gn/T/npm-16046-TxYleIqb/registry.npmjs.org/react/-/react-0.12.0.tgz
+32 http GET https://registry.npmjs.org/react/-/react-0.12.0.tgz
+33 http 200 https://registry.npmjs.org/react/-/react-0.12.0.tgz
+34 silly lockFile e58bd35b-npmjs-org-react-react-0-12-0-tgz https://registry.npmjs.org/react/-/react-0.12.0.tgz
+35 silly lockFile e58bd35b-npmjs-org-react-react-0-12-0-tgz https://registry.npmjs.org/react/-/react-0.12.0.tgz
+36 silly lockFile 899005cd-react-0-12-0 react@0.12.0
+37 silly lockFile 899005cd-react-0-12-0 react@0.12.0
+38 silly resolved [ { name: 'react',
+38 silly resolved     description: 'React is a JavaScript library for building user interfaces.',
+38 silly resolved     version: '0.12.0',
+38 silly resolved     keywords: [ 'react' ],
+38 silly resolved     homepage: 'https://github.com/facebook/react/tree/master/npm-react',
+38 silly resolved     bugs: { url: 'https://github.com/facebook/react/issues?labels=react-core' },
+38 silly resolved     license: 'BSD-3-Clause',
+38 silly resolved     files: [ 'README.md', 'addons.js', 'react.js', 'dist/', 'lib/' ],
+38 silly resolved     main: 'react.js',
+38 silly resolved     repository: { type: 'git', url: 'https://github.com/facebook/react' },
+38 silly resolved     engines: { node: '>=0.10.0' },
+38 silly resolved     dependencies: { envify: '^3.0.0' },
+38 silly resolved     browserify: { transform: [Object] },
+38 silly resolved     _id: 'react@0.12.0',
+38 silly resolved     _shasum: '4361809e9fc234fc89db4ebc087bdda07908a56b',
+38 silly resolved     _resolved: 'https://registry.npmjs.org/react/-/react-0.12.0.tgz',
+38 silly resolved     _from: 'react@0.12.0',
+38 silly resolved     scripts: {},
+38 silly resolved     _npmVersion: '2.1.4',
+38 silly resolved     _nodeVersion: '0.10.32',
+38 silly resolved     _npmUser: { name: 'zpao', email: 'paul@oshannessy.com' },
+38 silly resolved     maintainers: [ [Object], [Object] ],
+38 silly resolved     dist:
+38 silly resolved      { shasum: '4361809e9fc234fc89db4ebc087bdda07908a56b',
+38 silly resolved        tarball: 'http://registry.npmjs.org/react/-/react-0.12.0.tgz' },
+38 silly resolved     directories: {} } ]
+39 info install react@0.12.0 into /Users/dinnagonzales/Documents/StoryBoxCollection
+40 info installOne react@0.12.0
+41 verbose node_modules/react unbuild
+42 info preuninstall react@0.12.2
+43 info uninstall react@0.12.2
+44 verbose true,/Users/dinnagonzales/Documents/StoryBoxCollection/node_modules,/Users/dinnagonzales/Documents/StoryBoxCollection/node_modules unbuild react@0.12.2
+45 info postuninstall react@0.12.2
+46 verbose tar unpack /Users/dinnagonzales/.npm/react/0.12.0/package.tgz
+47 silly lockFile 19014f49-BoxCollection-node-modules-react tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react
+48 verbose lock tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react /Users/dinnagonzales/.npm/19014f49-BoxCollection-node-modules-react.lock
+49 silly lockFile 4f84c62a-les-npm-react-0-12-0-package-tgz tar:///Users/dinnagonzales/.npm/react/0.12.0/package.tgz
+50 verbose lock tar:///Users/dinnagonzales/.npm/react/0.12.0/package.tgz /Users/dinnagonzales/.npm/4f84c62a-les-npm-react-0-12-0-package-tgz.lock
+51 silly gunzTarPerm modes [ '755', '644' ]
+52 silly gunzTarPerm extractEntry package.json
+53 silly gunzTarPerm extractEntry README.md
+54 silly gunzTarPerm extractEntry addons.js
+55 silly gunzTarPerm extractEntry react.js
+56 silly gunzTarPerm extractEntry dist/JSXTransformer.js
+57 silly gunzTarPerm extractEntry dist/react-with-addons.js
+58 silly gunzTarPerm extractEntry dist/react-with-addons.min.js
+59 silly gunzTarPerm extractEntry dist/react.js
+60 silly gunzTarPerm extractEntry dist/react.min.js
+61 silly gunzTarPerm extractEntry lib/AutoFocusMixin.js
+62 silly gunzTarPerm extractEntry lib/ReactPutListenerQueue.js
+63 silly gunzTarPerm extractEntry lib/ReactReconcileTransaction.js
+64 silly gunzTarPerm extractEntry lib/ReactRootIndex.js
+65 silly gunzTarPerm extractEntry lib/ReactPropTypes.js
+66 silly gunzTarPerm extractEntry lib/ReactServerRenderingTransaction.js
+67 silly gunzTarPerm extractEntry lib/ReactStateSetters.js
+68 silly gunzTarPerm extractEntry lib/ReactTestUtils.js
+69 silly gunzTarPerm extractEntry lib/ReactTextComponent.js
+70 silly gunzTarPerm extractEntry lib/ReactTransitionChildMapping.js
+71 silly gunzTarPerm extractEntry lib/ReactPropTypeLocations.js
+72 silly gunzTarPerm extractEntry lib/ReactTransitionEvents.js
+73 silly gunzTarPerm extractEntry lib/ReactPropTypeLocationNames.js
+74 silly gunzTarPerm extractEntry lib/ReactTransitionGroup.js
+75 silly gunzTarPerm extractEntry lib/ReactPropTransferer.js
+76 silly gunzTarPerm extractEntry lib/ReactUpdates.js
+77 silly gunzTarPerm extractEntry lib/ReactPerf.js
+78 silly gunzTarPerm extractEntry lib/ReactWithAddons.js
+79 silly gunzTarPerm extractEntry lib/ReactOwner.js
+80 silly gunzTarPerm extractEntry lib/SVGDOMPropertyConfig.js
+81 silly gunzTarPerm extractEntry lib/ReactNativeComponent.js
+82 silly gunzTarPerm extractEntry lib/SelectEventPlugin.js
+83 silly gunzTarPerm extractEntry lib/ReactMultiChildUpdateTypes.js
+84 silly gunzTarPerm extractEntry lib/ServerReactRootIndex.js
+85 silly gunzTarPerm extractEntry lib/ReactMultiChild.js
+86 silly gunzTarPerm extractEntry lib/SimpleEventPlugin.js
+87 silly gunzTarPerm extractEntry lib/ReactMount.js
+88 silly gunzTarPerm extractEntry lib/SyntheticClipboardEvent.js
+89 silly gunzTarPerm extractEntry lib/ReactMarkupChecksum.js
+90 silly gunzTarPerm extractEntry lib/SyntheticCompositionEvent.js
+91 silly gunzTarPerm extractEntry lib/ReactLink.js
+92 silly gunzTarPerm extractEntry lib/SyntheticDragEvent.js
+93 silly gunzTarPerm extractEntry lib/ReactLegacyElement.js
+94 silly gunzTarPerm extractEntry lib/SyntheticEvent.js
+95 silly gunzTarPerm extractEntry lib/ReactInstanceHandles.js
+96 silly gunzTarPerm extractEntry lib/SyntheticFocusEvent.js
+97 silly gunzTarPerm extractEntry lib/ReactInputSelection.js
+98 silly gunzTarPerm extractEntry lib/SyntheticInputEvent.js
+99 silly gunzTarPerm extractEntry lib/ReactInjection.js
+100 silly gunzTarPerm extractEntry lib/SyntheticKeyboardEvent.js
+101 silly gunzTarPerm extractEntry lib/ReactEventListener.js
+102 silly gunzTarPerm extractEntry lib/SyntheticMouseEvent.js
+103 silly gunzTarPerm extractEntry lib/ReactEventEmitterMixin.js
+104 silly gunzTarPerm extractEntry lib/SyntheticTouchEvent.js
+105 silly gunzTarPerm extractEntry lib/ReactErrorUtils.js
+106 silly gunzTarPerm extractEntry lib/SyntheticUIEvent.js
+107 silly gunzTarPerm extractEntry lib/ReactEmptyComponent.js
+108 silly gunzTarPerm extractEntry lib/SyntheticWheelEvent.js
+109 silly gunzTarPerm extractEntry lib/ReactElementValidator.js
+110 silly gunzTarPerm extractEntry lib/Transaction.js
+111 silly gunzTarPerm extractEntry lib/ReactElement.js
+112 silly gunzTarPerm extractEntry lib/ViewportMetrics.js
+113 silly gunzTarPerm extractEntry lib/ReactDefaultPerfAnalysis.js
+114 silly gunzTarPerm extractEntry lib/accumulateInto.js
+115 silly gunzTarPerm extractEntry lib/ReactDefaultPerf.js
+116 silly gunzTarPerm extractEntry lib/adler32.js
+117 silly gunzTarPerm extractEntry lib/ReactDefaultInjection.js
+118 silly gunzTarPerm extractEntry lib/camelize.js
+119 silly gunzTarPerm extractEntry lib/ReactDefaultBatchingStrategy.js
+120 silly gunzTarPerm extractEntry lib/camelizeStyleName.js
+121 silly gunzTarPerm extractEntry lib/ReactDOMTextarea.js
+122 silly gunzTarPerm extractEntry lib/cloneWithProps.js
+123 silly gunzTarPerm extractEntry lib/ReactDOMSelection.js
+124 silly gunzTarPerm extractEntry lib/containsNode.js
+125 silly gunzTarPerm extractEntry lib/ReactDOMSelect.js
+126 silly gunzTarPerm extractEntry lib/copyProperties.js
+127 silly gunzTarPerm extractEntry lib/ReactDOMOption.js
+128 silly gunzTarPerm extractEntry lib/createArrayFrom.js
+129 silly gunzTarPerm extractEntry lib/ReactDOMInput.js
+130 silly gunzTarPerm extractEntry lib/createFullPageComponent.js
+131 silly gunzTarPerm extractEntry lib/ReactDOMImg.js
+132 silly gunzTarPerm extractEntry lib/createNodesFromMarkup.js
+133 silly gunzTarPerm extractEntry lib/ReactDOMIDOperations.js
+134 silly gunzTarPerm extractEntry lib/cx.js
+135 silly gunzTarPerm extractEntry lib/ReactDOMForm.js
+136 silly gunzTarPerm extractEntry lib/dangerousStyleValue.js
+137 silly gunzTarPerm extractEntry lib/ReactDOMComponent.js
+138 silly gunzTarPerm extractEntry lib/deprecated.js
+139 silly gunzTarPerm extractEntry lib/ReactDOMButton.js
+140 silly gunzTarPerm extractEntry lib/emptyFunction.js
+141 silly gunzTarPerm extractEntry lib/ReactDOM.js
+142 silly gunzTarPerm extractEntry lib/emptyObject.js
+143 silly gunzTarPerm extractEntry lib/ReactCurrentOwner.js
+144 silly gunzTarPerm extractEntry lib/escapeTextForBrowser.js
+145 silly gunzTarPerm extractEntry lib/ReactContext.js
+146 silly gunzTarPerm extractEntry lib/flattenChildren.js
+147 silly gunzTarPerm extractEntry lib/ReactCompositeComponent.js
+148 silly gunzTarPerm extractEntry lib/focusNode.js
+149 silly gunzTarPerm extractEntry lib/ReactComponentWithPureRenderMixin.js
+150 silly gunzTarPerm extractEntry lib/forEachAccumulated.js
+151 silly gunzTarPerm extractEntry lib/ReactComponentBrowserEnvironment.js
+152 silly gunzTarPerm extractEntry lib/getActiveElement.js
+153 silly gunzTarPerm extractEntry lib/ReactComponent.js
+154 silly gunzTarPerm extractEntry lib/getEventCharCode.js
+155 silly gunzTarPerm extractEntry lib/ReactChildren.js
+156 silly gunzTarPerm extractEntry lib/getEventKey.js
+157 silly gunzTarPerm extractEntry lib/ReactCSSTransitionGroupChild.js
+158 silly gunzTarPerm extractEntry lib/getEventModifierState.js
+159 silly gunzTarPerm extractEntry lib/ReactCSSTransitionGroup.js
+160 silly gunzTarPerm extractEntry lib/getEventTarget.js
+161 silly gunzTarPerm extractEntry lib/ReactBrowserEventEmitter.js
+162 silly gunzTarPerm extractEntry lib/getMarkupWrap.js
+163 silly gunzTarPerm extractEntry lib/ReactBrowserComponentMixin.js
+164 silly gunzTarPerm extractEntry lib/getNodeForCharacterOffset.js
+165 silly gunzTarPerm extractEntry lib/React.js
+166 silly gunzTarPerm extractEntry lib/getReactRootElementInContainer.js
+167 silly gunzTarPerm extractEntry lib/PooledClass.js
+168 silly gunzTarPerm extractEntry lib/getTextContentAccessor.js
+169 silly gunzTarPerm extractEntry lib/Object.assign.js
+170 silly gunzTarPerm extractEntry lib/getUnboundedScrollPosition.js
+171 silly gunzTarPerm extractEntry lib/MobileSafariClickEventPlugin.js
+172 silly gunzTarPerm extractEntry lib/hyphenate.js
+173 silly gunzTarPerm extractEntry lib/LocalEventTrapMixin.js
+174 silly gunzTarPerm extractEntry lib/hyphenateStyleName.js
+175 silly gunzTarPerm extractEntry lib/LinkedValueUtils.js
+176 silly gunzTarPerm extractEntry lib/instantiateReactComponent.js
+177 silly gunzTarPerm extractEntry lib/LinkedStateMixin.js
+178 silly gunzTarPerm extractEntry lib/invariant.js
+179 silly gunzTarPerm extractEntry lib/HTMLDOMPropertyConfig.js
+180 silly gunzTarPerm extractEntry lib/isEventSupported.js
+181 silly gunzTarPerm extractEntry lib/ExecutionEnvironment.js
+182 silly gunzTarPerm extractEntry lib/isNode.js
+183 silly gunzTarPerm extractEntry lib/EventPropagators.js
+184 silly gunzTarPerm extractEntry lib/isTextInputElement.js
+185 silly gunzTarPerm extractEntry lib/EventPluginUtils.js
+186 silly gunzTarPerm extractEntry lib/isTextNode.js
+187 silly gunzTarPerm extractEntry lib/EventPluginRegistry.js
+188 silly gunzTarPerm extractEntry lib/joinClasses.js
+189 silly gunzTarPerm extractEntry lib/EventPluginHub.js
+190 silly gunzTarPerm extractEntry lib/keyMirror.js
+191 silly gunzTarPerm extractEntry lib/EventListener.js
+192 silly gunzTarPerm extractEntry lib/keyOf.js
+193 silly gunzTarPerm extractEntry lib/EventConstants.js
+194 silly gunzTarPerm extractEntry lib/mapObject.js
+195 silly gunzTarPerm extractEntry lib/EnterLeaveEventPlugin.js
+196 silly gunzTarPerm extractEntry lib/memoizeStringOnly.js
+197 silly gunzTarPerm extractEntry lib/DefaultEventPluginOrder.js
+198 silly gunzTarPerm extractEntry lib/merge.js
+199 silly gunzTarPerm extractEntry lib/Danger.js
+200 silly gunzTarPerm extractEntry lib/mergeInto.js
+201 silly gunzTarPerm extractEntry lib/DOMPropertyOperations.js
+202 silly gunzTarPerm extractEntry lib/monitorCodeUse.js
+203 silly gunzTarPerm extractEntry lib/DOMProperty.js
+204 silly gunzTarPerm extractEntry lib/onlyChild.js
+205 silly gunzTarPerm extractEntry lib/DOMChildrenOperations.js
+206 silly gunzTarPerm extractEntry lib/performance.js
+207 silly gunzTarPerm extractEntry lib/CompositionEventPlugin.js
+208 silly gunzTarPerm extractEntry lib/performanceNow.js
+209 silly gunzTarPerm extractEntry lib/ClientReactRootIndex.js
+210 silly gunzTarPerm extractEntry lib/setInnerHTML.js
+211 silly gunzTarPerm extractEntry lib/ChangeEventPlugin.js
+212 silly gunzTarPerm extractEntry lib/shallowEqual.js
+213 silly gunzTarPerm extractEntry lib/CallbackQueue.js
+214 silly gunzTarPerm extractEntry lib/shouldUpdateReactComponent.js
+215 silly gunzTarPerm extractEntry lib/CSSPropertyOperations.js
+216 silly gunzTarPerm extractEntry lib/toArray.js
+217 silly gunzTarPerm extractEntry lib/CSSProperty.js
+218 silly gunzTarPerm extractEntry lib/traverseAllChildren.js
+219 silly gunzTarPerm extractEntry lib/CSSCore.js
+220 silly gunzTarPerm extractEntry lib/update.js
+221 silly gunzTarPerm extractEntry lib/BeforeInputEventPlugin.js
+222 silly gunzTarPerm extractEntry lib/warning.js
+223 silly gunzTarPerm extractEntry lib/ReactServerRendering.js
+224 silly lockFile 19014f49-BoxCollection-node-modules-react tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react
+225 silly lockFile 19014f49-BoxCollection-node-modules-react tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react
+226 silly lockFile 4f84c62a-les-npm-react-0-12-0-package-tgz tar:///Users/dinnagonzales/.npm/react/0.12.0/package.tgz
+227 silly lockFile 4f84c62a-les-npm-react-0-12-0-package-tgz tar:///Users/dinnagonzales/.npm/react/0.12.0/package.tgz
+228 info preinstall react@0.12.0
+229 verbose readDependencies using package.json deps
+230 verbose readDependencies using package.json deps
+231 verbose cache add [ 'envify@^3.0.0', null ]
+232 verbose cache add name=undefined spec="envify@^3.0.0" args=["envify@^3.0.0",null]
+233 verbose parsed url { protocol: null,
+233 verbose parsed url   slashes: null,
+233 verbose parsed url   auth: null,
+233 verbose parsed url   host: null,
+233 verbose parsed url   port: null,
+233 verbose parsed url   hostname: null,
+233 verbose parsed url   hash: null,
+233 verbose parsed url   search: null,
+233 verbose parsed url   query: null,
+233 verbose parsed url   pathname: 'envify@^3.0.0',
+233 verbose parsed url   path: 'envify@^3.0.0',
+233 verbose parsed url   href: 'envify@^3.0.0' }
+234 verbose cache add name="envify" spec="^3.0.0" args=["envify","^3.0.0"]
+235 verbose parsed url { protocol: null,
+235 verbose parsed url   slashes: null,
+235 verbose parsed url   auth: null,
+235 verbose parsed url   host: null,
+235 verbose parsed url   port: null,
+235 verbose parsed url   hostname: null,
+235 verbose parsed url   hash: null,
+235 verbose parsed url   search: null,
+235 verbose parsed url   query: null,
+235 verbose parsed url   pathname: '^3.0.0',
+235 verbose parsed url   path: '^3.0.0',
+235 verbose parsed url   href: '^3.0.0' }
+236 verbose addNamed [ 'envify', '^3.0.0' ]
+237 verbose addNamed [ null, '>=3.0.0-0 <4.0.0-0' ]
+238 silly lockFile 60731133-envify-3-0-0 envify@^3.0.0
+239 verbose lock envify@^3.0.0 /Users/dinnagonzales/.npm/60731133-envify-3-0-0.lock
+240 silly addNameRange { name: 'envify', range: '>=3.0.0-0 <4.0.0-0', hasData: false }
+241 verbose request where is /envify
+242 verbose request registry https://registry.npmjs.org/
+243 verbose url raw /envify
+244 verbose url resolving [ 'https://registry.npmjs.org/', './envify' ]
+245 verbose url resolved https://registry.npmjs.org/envify
+246 verbose request where is https://registry.npmjs.org/envify
+247 info trying registry request attempt 1 at 20:41:34
+248 verbose etag "3G18CCKCZ5XBLLI1439KU5JG7"
+249 http GET https://registry.npmjs.org/envify
+250 http 304 https://registry.npmjs.org/envify
+251 silly registry.get cb [ 304,
+251 silly registry.get   { date: 'Tue, 17 Nov 2015 04:41:41 GMT',
+251 silly registry.get     via: '1.1 varnish',
+251 silly registry.get     'cache-control': 'max-age=60',
+251 silly registry.get     etag: '"3G18CCKCZ5XBLLI1439KU5JG7"',
+251 silly registry.get     age: '43',
+251 silly registry.get     connection: 'keep-alive',
+251 silly registry.get     'x-served-by': 'cache-sjc3124-SJC',
+251 silly registry.get     'x-cache': 'HIT',
+251 silly registry.get     'x-cache-hits': '1',
+251 silly registry.get     'x-timer': 'S1447735301.081429,VS0,VE0',
+251 silly registry.get     vary: 'Accept' } ]
+252 verbose etag https://registry.npmjs.org/envify from cache
+253 silly addNameRange number 2 { name: 'envify', range: '>=3.0.0-0 <4.0.0-0', hasData: true }
+254 silly addNameRange versions [ 'envify',
+254 silly addNameRange   [ '0.0.1',
+254 silly addNameRange     '0.1.0',
+254 silly addNameRange     '0.2.0',
+254 silly addNameRange     '1.0.0',
+254 silly addNameRange     '1.0.1',
+254 silly addNameRange     '1.1.0',
+254 silly addNameRange     '1.2.0',
+254 silly addNameRange     '1.2.1',
+254 silly addNameRange     '2.0.0',
+254 silly addNameRange     '2.0.1',
+254 silly addNameRange     '3.0.0',
+254 silly addNameRange     '3.1.0',
+254 silly addNameRange     '3.2.0',
+254 silly addNameRange     '3.3.0',
+254 silly addNameRange     '3.3.1',
+254 silly addNameRange     '3.4.0' ] ]
+255 verbose addNamed [ 'envify', '3.4.0' ]
+256 verbose addNamed [ '3.4.0', '3.4.0' ]
+257 silly lockFile b60ef226-envify-3-4-0 envify@3.4.0
+258 verbose lock envify@3.4.0 /Users/dinnagonzales/.npm/b60ef226-envify-3-4-0.lock
+259 silly lockFile b60ef226-envify-3-4-0 envify@3.4.0
+260 silly lockFile b60ef226-envify-3-4-0 envify@3.4.0
+261 silly lockFile 60731133-envify-3-0-0 envify@^3.0.0
+262 silly lockFile 60731133-envify-3-0-0 envify@^3.0.0
+263 silly resolved [ { name: 'envify',
+263 silly resolved     version: '3.4.0',
+263 silly resolved     description: 'Selectively replace Node-style environment variables with plain strings.',
+263 silly resolved     main: 'index.js',
+263 silly resolved     scripts: { test: 'node test.js | tap-spec' },
+263 silly resolved     bin: { envify: 'bin/envify' },
+263 silly resolved     repository: { type: 'git', url: 'git://github.com/hughsk/envify.git' },
+263 silly resolved     author:
+263 silly resolved      { name: 'Hugh Kennedy',
+263 silly resolved        email: 'hughskennedy@gmail.com',
+263 silly resolved        url: 'http://hughskennedy.com/' },
+263 silly resolved     license: 'MIT',
+263 silly resolved     devDependencies: { 'tap-spec': '^1.0.1', tape: '~2.3.2' },
+263 silly resolved     dependencies: { through: '~2.3.4', jstransform: '^10.0.1' },
+263 silly resolved     keywords:
+263 silly resolved      [ 'environment',
+263 silly resolved        'variables',
+263 silly resolved        'browserify',
+263 silly resolved        'browserify-transform',
+263 silly resolved        'transform',
+263 silly resolved        'source',
+263 silly resolved        'configuration' ],
+263 silly resolved     gitHead: 'c42c2052e33f82b651a992686c3578639bf0339b',
+263 silly resolved     bugs: { url: 'https://github.com/hughsk/envify/issues' },
+263 silly resolved     homepage: 'https://github.com/hughsk/envify',
+263 silly resolved     _id: 'envify@3.4.0',
+263 silly resolved     _shasum: 'a0bed52222529076a02fabf6ce00eef42d7b6734',
+263 silly resolved     _from: 'envify@^3.0.0',
+263 silly resolved     _npmVersion: '1.4.28',
+263 silly resolved     _npmUser: { name: 'zertosh', email: 'zertosh@gmail.com' },
+263 silly resolved     maintainers: [ [Object], [Object] ],
+263 silly resolved     dist:
+263 silly resolved      { shasum: 'a0bed52222529076a02fabf6ce00eef42d7b6734',
+263 silly resolved        tarball: 'http://registry.npmjs.org/envify/-/envify-3.4.0.tgz' },
+263 silly resolved     directories: {},
+263 silly resolved     _resolved: 'https://registry.npmjs.org/envify/-/envify-3.4.0.tgz',
+263 silly resolved     readme: 'ERROR: No README data found!' } ]
+264 info install envify@3.4.0 into /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react
+265 info installOne envify@3.4.0
+266 verbose node_modules/react/node_modules/envify unbuild
+267 verbose tar unpack /Users/dinnagonzales/.npm/envify/3.4.0/package.tgz
+268 silly lockFile 3117ebab-odules-react-node-modules-envify tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify
+269 verbose lock tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify /Users/dinnagonzales/.npm/3117ebab-odules-react-node-modules-envify.lock
+270 silly lockFile 3340cd1c-les-npm-envify-3-4-0-package-tgz tar:///Users/dinnagonzales/.npm/envify/3.4.0/package.tgz
+271 verbose lock tar:///Users/dinnagonzales/.npm/envify/3.4.0/package.tgz /Users/dinnagonzales/.npm/3340cd1c-les-npm-envify-3-4-0-package-tgz.lock
+272 silly gunzTarPerm modes [ '755', '644' ]
+273 silly gunzTarPerm extractEntry package.json
+274 silly gunzTarPerm extractEntry .npmignore
+275 silly gunzTarPerm extractEntry README.md
+276 silly gunzTarPerm extractEntry visitors.js
+277 silly gunzTarPerm extractEntry index.js
+278 silly gunzTarPerm extractEntry custom.js
+279 silly gunzTarPerm extractEntry bin/envify
+280 silly lockFile 3117ebab-odules-react-node-modules-envify tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify
+281 silly lockFile 3117ebab-odules-react-node-modules-envify tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify
+282 silly lockFile 3340cd1c-les-npm-envify-3-4-0-package-tgz tar:///Users/dinnagonzales/.npm/envify/3.4.0/package.tgz
+283 silly lockFile 3340cd1c-les-npm-envify-3-4-0-package-tgz tar:///Users/dinnagonzales/.npm/envify/3.4.0/package.tgz
+284 info preinstall envify@3.4.0
+285 verbose readDependencies using package.json deps
+286 verbose readDependencies using package.json deps
+287 verbose cache add [ 'through@~2.3.4', null ]
+288 verbose cache add name=undefined spec="through@~2.3.4" args=["through@~2.3.4",null]
+289 verbose parsed url { protocol: null,
+289 verbose parsed url   slashes: null,
+289 verbose parsed url   auth: null,
+289 verbose parsed url   host: null,
+289 verbose parsed url   port: null,
+289 verbose parsed url   hostname: null,
+289 verbose parsed url   hash: null,
+289 verbose parsed url   search: null,
+289 verbose parsed url   query: null,
+289 verbose parsed url   pathname: 'through@~2.3.4',
+289 verbose parsed url   path: 'through@~2.3.4',
+289 verbose parsed url   href: 'through@~2.3.4' }
+290 verbose cache add [ 'jstransform@^10.0.1', null ]
+291 verbose cache add name=undefined spec="jstransform@^10.0.1" args=["jstransform@^10.0.1",null]
+292 verbose parsed url { protocol: null,
+292 verbose parsed url   slashes: null,
+292 verbose parsed url   auth: null,
+292 verbose parsed url   host: null,
+292 verbose parsed url   port: null,
+292 verbose parsed url   hostname: null,
+292 verbose parsed url   hash: null,
+292 verbose parsed url   search: null,
+292 verbose parsed url   query: null,
+292 verbose parsed url   pathname: 'jstransform@^10.0.1',
+292 verbose parsed url   path: 'jstransform@^10.0.1',
+292 verbose parsed url   href: 'jstransform@^10.0.1' }
+293 verbose cache add name="through" spec="~2.3.4" args=["through","~2.3.4"]
+294 verbose parsed url { protocol: null,
+294 verbose parsed url   slashes: null,
+294 verbose parsed url   auth: null,
+294 verbose parsed url   host: null,
+294 verbose parsed url   port: null,
+294 verbose parsed url   hostname: null,
+294 verbose parsed url   hash: null,
+294 verbose parsed url   search: null,
+294 verbose parsed url   query: null,
+294 verbose parsed url   pathname: '~2.3.4',
+294 verbose parsed url   path: '~2.3.4',
+294 verbose parsed url   href: '~2.3.4' }
+295 verbose addNamed [ 'through', '~2.3.4' ]
+296 verbose addNamed [ null, '>=2.3.4-0 <2.4.0-0' ]
+297 silly lockFile 560c0a42-through-2-3-4 through@~2.3.4
+298 verbose lock through@~2.3.4 /Users/dinnagonzales/.npm/560c0a42-through-2-3-4.lock
+299 verbose cache add name="jstransform" spec="^10.0.1" args=["jstransform","^10.0.1"]
+300 verbose parsed url { protocol: null,
+300 verbose parsed url   slashes: null,
+300 verbose parsed url   auth: null,
+300 verbose parsed url   host: null,
+300 verbose parsed url   port: null,
+300 verbose parsed url   hostname: null,
+300 verbose parsed url   hash: null,
+300 verbose parsed url   search: null,
+300 verbose parsed url   query: null,
+300 verbose parsed url   pathname: '^10.0.1',
+300 verbose parsed url   path: '^10.0.1',
+300 verbose parsed url   href: '^10.0.1' }
+301 verbose addNamed [ 'jstransform', '^10.0.1' ]
+302 verbose addNamed [ null, '>=10.0.1-0 <11.0.0-0' ]
+303 silly lockFile 92916357-jstransform-10-0-1 jstransform@^10.0.1
+304 verbose lock jstransform@^10.0.1 /Users/dinnagonzales/.npm/92916357-jstransform-10-0-1.lock
+305 silly addNameRange { name: 'through', range: '>=2.3.4-0 <2.4.0-0', hasData: false }
+306 silly addNameRange { name: 'jstransform',
+306 silly addNameRange   range: '>=10.0.1-0 <11.0.0-0',
+306 silly addNameRange   hasData: false }
+307 verbose request where is /through
+308 verbose request registry https://registry.npmjs.org/
+309 verbose url raw /through
+310 verbose url resolving [ 'https://registry.npmjs.org/', './through' ]
+311 verbose url resolved https://registry.npmjs.org/through
+312 verbose request where is https://registry.npmjs.org/through
+313 info trying registry request attempt 1 at 20:41:34
+314 verbose etag "61NTO9S6KSQU9LU8PCKDZGZK7"
+315 http GET https://registry.npmjs.org/through
+316 verbose request where is /jstransform
+317 verbose request registry https://registry.npmjs.org/
+318 verbose url raw /jstransform
+319 verbose url resolving [ 'https://registry.npmjs.org/', './jstransform' ]
+320 verbose url resolved https://registry.npmjs.org/jstransform
+321 verbose request where is https://registry.npmjs.org/jstransform
+322 info trying registry request attempt 1 at 20:41:34
+323 verbose etag "47B7F6QLHW6K515EWMAOJ4LOW"
+324 http GET https://registry.npmjs.org/jstransform
+325 http 304 https://registry.npmjs.org/through
+326 silly registry.get cb [ 304,
+326 silly registry.get   { date: 'Tue, 17 Nov 2015 04:41:41 GMT',
+326 silly registry.get     via: '1.1 varnish',
+326 silly registry.get     'cache-control': 'max-age=60',
+326 silly registry.get     etag: '"61NTO9S6KSQU9LU8PCKDZGZK7"',
+326 silly registry.get     age: '1',
+326 silly registry.get     connection: 'keep-alive',
+326 silly registry.get     'x-served-by': 'cache-sjc3125-SJC',
+326 silly registry.get     'x-cache': 'HIT',
+326 silly registry.get     'x-cache-hits': '1',
+326 silly registry.get     'x-timer': 'S1447735301.302864,VS0,VE0',
+326 silly registry.get     vary: 'Accept' } ]
+327 verbose etag https://registry.npmjs.org/through from cache
+328 http 304 https://registry.npmjs.org/jstransform
+329 silly registry.get cb [ 304,
+329 silly registry.get   { date: 'Tue, 17 Nov 2015 04:41:41 GMT',
+329 silly registry.get     via: '1.1 varnish',
+329 silly registry.get     'cache-control': 'max-age=60',
+329 silly registry.get     etag: '"47B7F6QLHW6K515EWMAOJ4LOW"',
+329 silly registry.get     age: '43',
+329 silly registry.get     connection: 'keep-alive',
+329 silly registry.get     'x-served-by': 'cache-sjc3132-SJC',
+329 silly registry.get     'x-cache': 'HIT',
+329 silly registry.get     'x-cache-hits': '1',
+329 silly registry.get     'x-timer': 'S1447735301.304600,VS0,VE0',
+329 silly registry.get     vary: 'Accept' } ]
+330 verbose etag https://registry.npmjs.org/jstransform from cache
+331 silly addNameRange number 2 { name: 'through', range: '>=2.3.4-0 <2.4.0-0', hasData: true }
+332 silly addNameRange versions [ 'through',
+332 silly addNameRange   [ '0.0.1',
+332 silly addNameRange     '0.0.2',
+332 silly addNameRange     '0.0.3',
+332 silly addNameRange     '0.0.4',
+332 silly addNameRange     '0.1.0',
+332 silly addNameRange     '0.1.1',
+332 silly addNameRange     '0.1.2',
+332 silly addNameRange     '0.1.3',
+332 silly addNameRange     '0.1.4',
+332 silly addNameRange     '1.0.0',
+332 silly addNameRange     '1.1.0',
+332 silly addNameRange     '1.1.1',
+332 silly addNameRange     '1.1.2',
+332 silly addNameRange     '2.0.0',
+332 silly addNameRange     '2.1.0',
+332 silly addNameRange     '2.2.0',
+332 silly addNameRange     '2.2.1',
+332 silly addNameRange     '2.2.2',
+332 silly addNameRange     '2.2.4',
+332 silly addNameRange     '2.2.5',
+332 silly addNameRange     '2.2.6',
+332 silly addNameRange     '2.2.7',
+332 silly addNameRange     '2.3.1',
+332 silly addNameRange     '2.3.2',
+332 silly addNameRange     '2.3.3',
+332 silly addNameRange     '2.3.4',
+332 silly addNameRange     '2.3.6',
+332 silly addNameRange     '2.3.7',
+332 silly addNameRange     '2.3.8' ] ]
+333 verbose addNamed [ 'through', '2.3.8' ]
+334 verbose addNamed [ '2.3.8', '2.3.8' ]
+335 silly lockFile 05586770-through-2-3-8 through@2.3.8
+336 verbose lock through@2.3.8 /Users/dinnagonzales/.npm/05586770-through-2-3-8.lock
+337 silly addNameRange number 2 { name: 'jstransform',
+337 silly addNameRange   range: '>=10.0.1-0 <11.0.0-0',
+337 silly addNameRange   hasData: true }
+338 silly addNameRange versions [ 'jstransform',
+338 silly addNameRange   [ '1.0.0',
+338 silly addNameRange     '1.0.1',
+338 silly addNameRange     '2.0.1',
+338 silly addNameRange     '2.0.2',
+338 silly addNameRange     '2.0.3',
+338 silly addNameRange     '3.0.0',
+338 silly addNameRange     '4.0.0',
+338 silly addNameRange     '4.0.1',
+338 silly addNameRange     '5.0.0',
+338 silly addNameRange     '6.0.0',
+338 silly addNameRange     '6.0.1',
+338 silly addNameRange     '6.1.0',
+338 silly addNameRange     '6.2.0',
+338 silly addNameRange     '6.3.0',
+338 silly addNameRange     '6.3.2',
+338 silly addNameRange     '7.0.0',
+338 silly addNameRange     '8.0.0',
+338 silly addNameRange     '8.1.0',
+338 silly addNameRange     '8.2.0',
+338 silly addNameRange     '9.0.0',
+338 silly addNameRange     '9.1.0',
+338 silly addNameRange     '9.1.1',
+338 silly addNameRange     '10.0.0',
+338 silly addNameRange     '10.0.1',
+338 silly addNameRange     '10.1.0',
+338 silly addNameRange     '11.0.0',
+338 silly addNameRange     '11.0.1',
+338 silly addNameRange     '11.0.2',
+338 silly addNameRange     '11.0.3' ] ]
+339 verbose addNamed [ 'jstransform', '10.1.0' ]
+340 verbose addNamed [ '10.1.0', '10.1.0' ]
+341 silly lockFile a43da3f1-jstransform-10-1-0 jstransform@10.1.0
+342 verbose lock jstransform@10.1.0 /Users/dinnagonzales/.npm/a43da3f1-jstransform-10-1-0.lock
+343 silly lockFile 05586770-through-2-3-8 through@2.3.8
+344 silly lockFile 05586770-through-2-3-8 through@2.3.8
+345 silly lockFile a43da3f1-jstransform-10-1-0 jstransform@10.1.0
+346 silly lockFile a43da3f1-jstransform-10-1-0 jstransform@10.1.0
+347 silly lockFile 560c0a42-through-2-3-4 through@~2.3.4
+348 silly lockFile 560c0a42-through-2-3-4 through@~2.3.4
+349 silly lockFile 92916357-jstransform-10-0-1 jstransform@^10.0.1
+350 silly lockFile 92916357-jstransform-10-0-1 jstransform@^10.0.1
+351 silly resolved [ { name: 'jstransform',
+351 silly resolved     version: '10.1.0',
+351 silly resolved     description: 'A simple AST visitor-based JS transformer',
+351 silly resolved     contributors: [ [Object] ],
+351 silly resolved     main: 'src/jstransform',
+351 silly resolved     repository:
+351 silly resolved      { type: 'git',
+351 silly resolved        url: 'git+ssh://git@github.com/facebook/jstransform.git' },
+351 silly resolved     keywords: [ 'transformer', 'compiler', 'syntax', 'visitor' ],
+351 silly resolved     dependencies:
+351 silly resolved      { base62: '0.1.1',
+351 silly resolved        'esprima-fb': '13001.1001.0-dev-harmony-fb',
+351 silly resolved        'source-map': '0.1.31' },
+351 silly resolved     licenses: [ [Object] ],
+351 silly resolved     engines: { node: '>=0.8.8' },
+351 silly resolved     devDependencies: { 'jest-cli': '^0.2', jshint: '^2.5.10' },
+351 silly resolved     jest:
+351 silly resolved      { scriptPreprocessor: '<rootDir>/jestPreprocessor.js',
+351 silly resolved        setupEnvScriptFile: '<rootDir>/jestEnvironment.js',
+351 silly resolved        testPathIgnorePatterns: [Object] },
+351 silly resolved     scripts:
+351 silly resolved      { prepublish: 'jest && jshint --config=.jshintrc --exclude=node_modules .',
+351 silly resolved        test: 'jest && jshint --config=.jshintrc --exclude=node_modules .' },
+351 silly resolved     gitHead: '90201cf6e40549bacf0efe8915600658a9564471',
+351 silly resolved     bugs: { url: 'https://github.com/facebook/jstransform/issues' },
+351 silly resolved     homepage: 'https://github.com/facebook/jstransform',
+351 silly resolved     _id: 'jstransform@10.1.0',
+351 silly resolved     _shasum: 'b4c49bf63f162c108b0348399a8737c713b0a83a',
+351 silly resolved     _from: 'jstransform@^10.0.1',
+351 silly resolved     _npmVersion: '1.4.16',
+351 silly resolved     _npmUser: { name: 'gabelevi', email: 'gabelevi@gmail.com' },
+351 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+351 silly resolved     dist:
+351 silly resolved      { shasum: 'b4c49bf63f162c108b0348399a8737c713b0a83a',
+351 silly resolved        tarball: 'http://registry.npmjs.org/jstransform/-/jstransform-10.1.0.tgz' },
+351 silly resolved     directories: {},
+351 silly resolved     _resolved: 'https://registry.npmjs.org/jstransform/-/jstransform-10.1.0.tgz',
+351 silly resolved     readme: 'ERROR: No README data found!' },
+351 silly resolved   { name: 'through',
+351 silly resolved     version: '2.3.8',
+351 silly resolved     description: 'simplified stream construction',
+351 silly resolved     main: 'index.js',
+351 silly resolved     scripts: { test: 'set -e; for t in test/*.js; do node $t; done' },
+351 silly resolved     devDependencies: { 'stream-spec': '~0.3.5', tape: '~2.3.2', from: '~0.1.3' },
+351 silly resolved     keywords: [ 'stream', 'streams', 'user-streams', 'pipe' ],
+351 silly resolved     author:
+351 silly resolved      { name: 'Dominic Tarr',
+351 silly resolved        email: 'dominic.tarr@gmail.com',
+351 silly resolved        url: 'dominictarr.com' },
+351 silly resolved     license: 'MIT',
+351 silly resolved     repository:
+351 silly resolved      { type: 'git',
+351 silly resolved        url: 'git+https://github.com/dominictarr/through.git' },
+351 silly resolved     homepage: 'https://github.com/dominictarr/through',
+351 silly resolved     testling: { browsers: [Object], files: 'test/*.js' },
+351 silly resolved     gitHead: '2c5a6f9a0cc54da759b6e10964f2081c358e49dc',
+351 silly resolved     bugs: { url: 'https://github.com/dominictarr/through/issues' },
+351 silly resolved     _id: 'through@2.3.8',
+351 silly resolved     _shasum: '0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5',
+351 silly resolved     _from: 'through@~2.3.4',
+351 silly resolved     _npmVersion: '2.12.0',
+351 silly resolved     _nodeVersion: '2.3.1',
+351 silly resolved     _npmUser: { name: 'dominictarr', email: 'dominic.tarr@gmail.com' },
+351 silly resolved     maintainers: [ [Object] ],
+351 silly resolved     dist:
+351 silly resolved      { shasum: '0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5',
+351 silly resolved        tarball: 'http://registry.npmjs.org/through/-/through-2.3.8.tgz' },
+351 silly resolved     directories: {},
+351 silly resolved     _resolved: 'https://registry.npmjs.org/through/-/through-2.3.8.tgz',
+351 silly resolved     readme: 'ERROR: No README data found!' } ]
+352 info install jstransform@10.1.0 into /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify
+353 info install through@2.3.8 into /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify
+354 info installOne jstransform@10.1.0
+355 info installOne through@2.3.8
+356 verbose node_modules/react/node_modules/envify/node_modules/through unbuild
+357 verbose node_modules/react/node_modules/envify/node_modules/jstransform unbuild
+358 verbose tar unpack /Users/dinnagonzales/.npm/through/2.3.8/package.tgz
+359 silly lockFile 02731dbb-ules-envify-node-modules-through tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/through
+360 verbose lock tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/through /Users/dinnagonzales/.npm/02731dbb-ules-envify-node-modules-through.lock
+361 silly lockFile d9d91d7f-es-npm-through-2-3-8-package-tgz tar:///Users/dinnagonzales/.npm/through/2.3.8/package.tgz
+362 verbose lock tar:///Users/dinnagonzales/.npm/through/2.3.8/package.tgz /Users/dinnagonzales/.npm/d9d91d7f-es-npm-through-2-3-8-package-tgz.lock
+363 verbose tar unpack /Users/dinnagonzales/.npm/jstransform/10.1.0/package.tgz
+364 silly lockFile 6f7b97db--envify-node-modules-jstransform tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform
+365 verbose lock tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform /Users/dinnagonzales/.npm/6f7b97db--envify-node-modules-jstransform.lock
+366 silly lockFile 7d82c3a0-m-jstransform-10-1-0-package-tgz tar:///Users/dinnagonzales/.npm/jstransform/10.1.0/package.tgz
+367 verbose lock tar:///Users/dinnagonzales/.npm/jstransform/10.1.0/package.tgz /Users/dinnagonzales/.npm/7d82c3a0-m-jstransform-10-1-0-package-tgz.lock
+368 silly gunzTarPerm modes [ '755', '644' ]
+369 silly gunzTarPerm modes [ '755', '644' ]
+370 silly gunzTarPerm extractEntry package.json
+371 silly gunzTarPerm extractEntry package.json
+372 silly gunzTarPerm extractEntry index.js
+373 silly gunzTarPerm extractEntry .travis.yml
+374 silly gunzTarPerm extractEntry .npmignore
+375 silly gunzTarPerm extractEntry README.md
+376 silly gunzTarPerm extractEntry LICENSE.APACHE2
+377 silly gunzTarPerm extractEntry LICENSE.MIT
+378 silly gunzTarPerm extractEntry LICENSE
+379 silly gunzTarPerm extractEntry jestEnvironment.js
+380 silly gunzTarPerm extractEntry jestPreprocessor.js
+381 silly gunzTarPerm extractEntry readme.markdown
+382 silly gunzTarPerm extractEntry test/async.js
+383 silly gunzTarPerm extractEntry test/auto-destroy.js
+384 silly gunzTarPerm extractEntry test/buffering.js
+385 silly gunzTarPerm extractEntry .jshintrc
+386 silly gunzTarPerm extractEntry .travis.yml
+387 silly gunzTarPerm extractEntry test/end.js
+388 silly gunzTarPerm extractEntry test/index.js
+389 silly gunzTarPerm extractEntry polyfill/Object.es6.js
+390 silly gunzTarPerm extractEntry src/docblock.js
+391 silly gunzTarPerm extractEntry src/jstransform.js
+392 silly gunzTarPerm extractEntry src/utils.js
+393 silly gunzTarPerm extractEntry src/__tests__/jstransform-test.js
+394 silly gunzTarPerm extractEntry src/__tests__/jstransform-utils-test.js
+395 silly gunzTarPerm extractEntry visitors/type-syntax.js
+396 silly gunzTarPerm extractEntry visitors/es6-class-visitors.js
+397 silly gunzTarPerm extractEntry visitors/es6-destructuring-visitors.js
+398 silly gunzTarPerm extractEntry visitors/es6-object-concise-method-visitors.js
+399 silly gunzTarPerm extractEntry visitors/es6-object-short-notation-visitors.js
+400 silly gunzTarPerm extractEntry visitors/es6-call-spread-visitors.js
+401 silly lockFile 02731dbb-ules-envify-node-modules-through tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/through
+402 silly lockFile 02731dbb-ules-envify-node-modules-through tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/through
+403 silly lockFile d9d91d7f-es-npm-through-2-3-8-package-tgz tar:///Users/dinnagonzales/.npm/through/2.3.8/package.tgz
+404 silly lockFile d9d91d7f-es-npm-through-2-3-8-package-tgz tar:///Users/dinnagonzales/.npm/through/2.3.8/package.tgz
+405 silly gunzTarPerm extractEntry visitors/es6-template-visitors.js
+406 silly gunzTarPerm extractEntry visitors/es7-rest-property-helpers.js
+407 info preinstall through@2.3.8
+408 verbose readDependencies using package.json deps
+409 verbose readDependencies using package.json deps
+410 silly resolved []
+411 verbose about to build /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/through
+412 info build /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/through
+413 verbose linkStuff [ false,
+413 verbose linkStuff   false,
+413 verbose linkStuff   false,
+413 verbose linkStuff   '/Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules' ]
+414 info linkStuff through@2.3.8
+415 verbose linkBins through@2.3.8
+416 verbose linkMans through@2.3.8
+417 verbose rebuildBundles through@2.3.8
+418 info install through@2.3.8
+419 info postinstall through@2.3.8
+420 silly gunzTarPerm extractEntry visitors/es7-spread-property-visitors.js
+421 silly gunzTarPerm extractEntry visitors/reserved-words-helper.js
+422 silly gunzTarPerm extractEntry visitors/reserved-words-visitors.js
+423 silly gunzTarPerm extractEntry visitors/es6-arrow-function-visitors.js
+424 silly gunzTarPerm extractEntry visitors/es6-rest-param-visitors.js
+425 silly gunzTarPerm extractEntry visitors/__tests__/es6-arrow-function-visitors-test.js
+426 silly gunzTarPerm extractEntry visitors/__tests__/es6-object-short-notation-visitors-test.js
+427 silly gunzTarPerm extractEntry visitors/__tests__/es6-rest-param-visitors-test.js
+428 silly gunzTarPerm extractEntry visitors/__tests__/es6-template-visitors-test.js
+429 silly gunzTarPerm extractEntry visitors/__tests__/es7-rest-property-helpers-test.js
+430 silly gunzTarPerm extractEntry visitors/__tests__/es6-object-concise-method-visitors-test.js
+431 silly gunzTarPerm extractEntry visitors/__tests__/type-syntax-test.js
+432 silly gunzTarPerm extractEntry visitors/__tests__/reserved-words-test.js
+433 silly gunzTarPerm extractEntry visitors/__tests__/type-alias-syntax-test.js
+434 silly gunzTarPerm extractEntry visitors/__tests__/type-class-syntax-test.js
+435 silly gunzTarPerm extractEntry visitors/__tests__/type-function-syntax-test.js
+436 silly gunzTarPerm extractEntry visitors/__tests__/es6-es7-object-integration-test.js
+437 silly gunzTarPerm extractEntry visitors/__tests__/type-interface-syntax-test.js
+438 silly gunzTarPerm extractEntry visitors/__tests__/es6-destructuring-visitors-test.js
+439 silly gunzTarPerm extractEntry visitors/__tests__/type-object-method-syntax-test.js
+440 silly gunzTarPerm extractEntry visitors/__tests__/es6-class-visitors-test.js
+441 silly gunzTarPerm extractEntry visitors/__tests__/type-pattern-syntax-test.js
+442 silly gunzTarPerm extractEntry visitors/__tests__/es6-call-spread-visitors-test.js
+443 silly gunzTarPerm extractEntry visitors/__tests__/type-variable-declaration-syntax-test.js
+444 silly gunzTarPerm extractEntry visitors/__tests__/es7-spread-property-visitors-test.js
+445 silly gunzTarPerm extractEntry visitors/__tests__/gen/generate-type-syntax-test.js
+446 silly gunzTarPerm extractEntry visitors/__tests__/gen/type-syntax-test.rec.js
+447 silly lockFile 6f7b97db--envify-node-modules-jstransform tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform
+448 silly lockFile 6f7b97db--envify-node-modules-jstransform tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform
+449 silly lockFile 7d82c3a0-m-jstransform-10-1-0-package-tgz tar:///Users/dinnagonzales/.npm/jstransform/10.1.0/package.tgz
+450 silly lockFile 7d82c3a0-m-jstransform-10-1-0-package-tgz tar:///Users/dinnagonzales/.npm/jstransform/10.1.0/package.tgz
+451 info preinstall jstransform@10.1.0
+452 verbose readDependencies using package.json deps
+453 verbose readDependencies using package.json deps
+454 verbose cache add [ 'base62@0.1.1', null ]
+455 verbose cache add name=undefined spec="base62@0.1.1" args=["base62@0.1.1",null]
+456 verbose parsed url { protocol: null,
+456 verbose parsed url   slashes: null,
+456 verbose parsed url   auth: null,
+456 verbose parsed url   host: null,
+456 verbose parsed url   port: null,
+456 verbose parsed url   hostname: null,
+456 verbose parsed url   hash: null,
+456 verbose parsed url   search: null,
+456 verbose parsed url   query: null,
+456 verbose parsed url   pathname: 'base62@0.1.1',
+456 verbose parsed url   path: 'base62@0.1.1',
+456 verbose parsed url   href: 'base62@0.1.1' }
+457 verbose cache add [ 'esprima-fb@13001.1001.0-dev-harmony-fb', null ]
+458 verbose cache add name=undefined spec="esprima-fb@13001.1001.0-dev-harmony-fb" args=["esprima-fb@13001.1001.0-dev-harmony-fb",null]
+459 verbose parsed url { protocol: null,
+459 verbose parsed url   slashes: null,
+459 verbose parsed url   auth: null,
+459 verbose parsed url   host: null,
+459 verbose parsed url   port: null,
+459 verbose parsed url   hostname: null,
+459 verbose parsed url   hash: null,
+459 verbose parsed url   search: null,
+459 verbose parsed url   query: null,
+459 verbose parsed url   pathname: 'esprima-fb@13001.1001.0-dev-harmony-fb',
+459 verbose parsed url   path: 'esprima-fb@13001.1001.0-dev-harmony-fb',
+459 verbose parsed url   href: 'esprima-fb@13001.1001.0-dev-harmony-fb' }
+460 verbose cache add name="base62" spec="0.1.1" args=["base62","0.1.1"]
+461 verbose parsed url { protocol: null,
+461 verbose parsed url   slashes: null,
+461 verbose parsed url   auth: null,
+461 verbose parsed url   host: null,
+461 verbose parsed url   port: null,
+461 verbose parsed url   hostname: null,
+461 verbose parsed url   hash: null,
+461 verbose parsed url   search: null,
+461 verbose parsed url   query: null,
+461 verbose parsed url   pathname: '0.1.1',
+461 verbose parsed url   path: '0.1.1',
+461 verbose parsed url   href: '0.1.1' }
+462 verbose addNamed [ 'base62', '0.1.1' ]
+463 verbose addNamed [ '0.1.1', '0.1.1' ]
+464 silly lockFile c24f39ea-base62-0-1-1 base62@0.1.1
+465 verbose lock base62@0.1.1 /Users/dinnagonzales/.npm/c24f39ea-base62-0-1-1.lock
+466 verbose cache add [ 'source-map@0.1.31', null ]
+467 verbose cache add name=undefined spec="source-map@0.1.31" args=["source-map@0.1.31",null]
+468 verbose parsed url { protocol: null,
+468 verbose parsed url   slashes: null,
+468 verbose parsed url   auth: null,
+468 verbose parsed url   host: null,
+468 verbose parsed url   port: null,
+468 verbose parsed url   hostname: null,
+468 verbose parsed url   hash: null,
+468 verbose parsed url   search: null,
+468 verbose parsed url   query: null,
+468 verbose parsed url   pathname: 'source-map@0.1.31',
+468 verbose parsed url   path: 'source-map@0.1.31',
+468 verbose parsed url   href: 'source-map@0.1.31' }
+469 verbose cache add name="esprima-fb" spec="13001.1001.0-dev-harmony-fb" args=["esprima-fb","13001.1001.0-dev-harmony-fb"]
+470 verbose parsed url { protocol: null,
+470 verbose parsed url   slashes: null,
+470 verbose parsed url   auth: null,
+470 verbose parsed url   host: null,
+470 verbose parsed url   port: null,
+470 verbose parsed url   hostname: null,
+470 verbose parsed url   hash: null,
+470 verbose parsed url   search: null,
+470 verbose parsed url   query: null,
+470 verbose parsed url   pathname: '13001.1001.0-dev-harmony-fb',
+470 verbose parsed url   path: '13001.1001.0-dev-harmony-fb',
+470 verbose parsed url   href: '13001.1001.0-dev-harmony-fb' }
+471 verbose addNamed [ 'esprima-fb', '13001.1001.0-dev-harmony-fb' ]
+472 verbose addNamed [ '13001.1001.0-dev-harmony-fb', '13001.1001.0-dev-harmony-fb' ]
+473 silly lockFile b6ef9b9a-a-fb-13001-1001-0-dev-harmony-fb esprima-fb@13001.1001.0-dev-harmony-fb
+474 verbose lock esprima-fb@13001.1001.0-dev-harmony-fb /Users/dinnagonzales/.npm/b6ef9b9a-a-fb-13001-1001-0-dev-harmony-fb.lock
+475 verbose cache add name="source-map" spec="0.1.31" args=["source-map","0.1.31"]
+476 verbose parsed url { protocol: null,
+476 verbose parsed url   slashes: null,
+476 verbose parsed url   auth: null,
+476 verbose parsed url   host: null,
+476 verbose parsed url   port: null,
+476 verbose parsed url   hostname: null,
+476 verbose parsed url   hash: null,
+476 verbose parsed url   search: null,
+476 verbose parsed url   query: null,
+476 verbose parsed url   pathname: '0.1.31',
+476 verbose parsed url   path: '0.1.31',
+476 verbose parsed url   href: '0.1.31' }
+477 verbose addNamed [ 'source-map', '0.1.31' ]
+478 verbose addNamed [ '0.1.31', '0.1.31' ]
+479 silly lockFile da25d7af-source-map-0-1-31 source-map@0.1.31
+480 verbose lock source-map@0.1.31 /Users/dinnagonzales/.npm/da25d7af-source-map-0-1-31.lock
+481 verbose request where is /base62
+482 verbose request registry https://registry.npmjs.org/
+483 verbose url raw /base62
+484 verbose url resolving [ 'https://registry.npmjs.org/', './base62' ]
+485 verbose url resolved https://registry.npmjs.org/base62
+486 verbose request where is https://registry.npmjs.org/base62
+487 info trying registry request attempt 1 at 20:41:34
+488 verbose etag "XZYR7YGCUVXMR7CXYA3DWG62"
+489 http GET https://registry.npmjs.org/base62
+490 verbose request where is /esprima-fb
+491 verbose request registry https://registry.npmjs.org/
+492 verbose url raw /esprima-fb
+493 verbose url resolving [ 'https://registry.npmjs.org/', './esprima-fb' ]
+494 verbose url resolved https://registry.npmjs.org/esprima-fb
+495 verbose request where is https://registry.npmjs.org/esprima-fb
+496 info trying registry request attempt 1 at 20:41:34
+497 verbose etag "4AEUSG43ZILFZ10L3XXRKITLR"
+498 http GET https://registry.npmjs.org/esprima-fb
+499 verbose request where is /source-map
+500 verbose request registry https://registry.npmjs.org/
+501 verbose url raw /source-map
+502 verbose url resolving [ 'https://registry.npmjs.org/', './source-map' ]
+503 verbose url resolved https://registry.npmjs.org/source-map
+504 verbose request where is https://registry.npmjs.org/source-map
+505 info trying registry request attempt 1 at 20:41:34
+506 verbose etag "DZP0UAZ3HLKDWPD8UJFQKKWMX"
+507 http GET https://registry.npmjs.org/source-map
+508 http 304 https://registry.npmjs.org/esprima-fb
+509 silly registry.get cb [ 304,
+509 silly registry.get   { date: 'Tue, 17 Nov 2015 04:41:41 GMT',
+509 silly registry.get     via: '1.1 varnish',
+509 silly registry.get     'cache-control': 'max-age=60',
+509 silly registry.get     etag: '"4AEUSG43ZILFZ10L3XXRKITLR"',
+509 silly registry.get     age: '46',
+509 silly registry.get     connection: 'keep-alive',
+509 silly registry.get     'x-served-by': 'cache-sjc3133-SJC',
+509 silly registry.get     'x-cache': 'HIT',
+509 silly registry.get     'x-cache-hits': '1',
+509 silly registry.get     'x-timer': 'S1447735301.726113,VS0,VE0',
+509 silly registry.get     vary: 'Accept' } ]
+510 verbose etag https://registry.npmjs.org/esprima-fb from cache
+511 http 304 https://registry.npmjs.org/base62
+512 silly registry.get cb [ 304,
+512 silly registry.get   { date: 'Tue, 17 Nov 2015 04:41:41 GMT',
+512 silly registry.get     via: '1.1 varnish',
+512 silly registry.get     'cache-control': 'max-age=60',
+512 silly registry.get     etag: '"XZYR7YGCUVXMR7CXYA3DWG62"',
+512 silly registry.get     age: '45',
+512 silly registry.get     connection: 'keep-alive',
+512 silly registry.get     'x-served-by': 'cache-sjc3124-SJC',
+512 silly registry.get     'x-cache': 'HIT',
+512 silly registry.get     'x-cache-hits': '1',
+512 silly registry.get     'x-timer': 'S1447735301.726029,VS0,VE0',
+512 silly registry.get     vary: 'Accept' } ]
+513 verbose etag https://registry.npmjs.org/base62 from cache
+514 http 304 https://registry.npmjs.org/source-map
+515 silly registry.get cb [ 304,
+515 silly registry.get   { date: 'Tue, 17 Nov 2015 04:41:41 GMT',
+515 silly registry.get     via: '1.1 varnish',
+515 silly registry.get     'cache-control': 'max-age=60',
+515 silly registry.get     etag: '"DZP0UAZ3HLKDWPD8UJFQKKWMX"',
+515 silly registry.get     age: '16',
+515 silly registry.get     connection: 'keep-alive',
+515 silly registry.get     'x-served-by': 'cache-sjc3132-SJC',
+515 silly registry.get     'x-cache': 'HIT',
+515 silly registry.get     'x-cache-hits': '1',
+515 silly registry.get     'x-timer': 'S1447735301.727629,VS0,VE1',
+515 silly registry.get     vary: 'Accept' } ]
+516 verbose etag https://registry.npmjs.org/source-map from cache
+517 silly lockFile c24f39ea-base62-0-1-1 base62@0.1.1
+518 silly lockFile c24f39ea-base62-0-1-1 base62@0.1.1
+519 silly lockFile b6ef9b9a-a-fb-13001-1001-0-dev-harmony-fb esprima-fb@13001.1001.0-dev-harmony-fb
+520 silly lockFile b6ef9b9a-a-fb-13001-1001-0-dev-harmony-fb esprima-fb@13001.1001.0-dev-harmony-fb
+521 silly lockFile da25d7af-source-map-0-1-31 source-map@0.1.31
+522 silly lockFile da25d7af-source-map-0-1-31 source-map@0.1.31
+523 silly resolved [ { author:
+523 silly resolved      { name: 'Andrew Nesbitt',
+523 silly resolved        email: 'andrewnez@gmail.com',
+523 silly resolved        url: 'http://andrew-nesbitt.com/' },
+523 silly resolved     name: 'base62',
+523 silly resolved     description: 'Javascript Base62 encode/decoder',
+523 silly resolved     keywords: [ 'base-62' ],
+523 silly resolved     version: '0.1.1',
+523 silly resolved     repository: { type: 'git', url: 'git://github.com/andrew/base62.js.git' },
+523 silly resolved     main: 'base62.js',
+523 silly resolved     engines: { node: '*' },
+523 silly resolved     scripts: { test: 'mocha test' },
+523 silly resolved     devDependencies: { mocha: '1.7.x' },
+523 silly resolved     _id: 'base62@0.1.1',
+523 silly resolved     dist:
+523 silly resolved      { shasum: '7b4174c2f94449753b11c2651c083da841a7b084',
+523 silly resolved        tarball: 'http://registry.npmjs.org/base62/-/base62-0.1.1.tgz' },
+523 silly resolved     _npmVersion: '1.1.65',
+523 silly resolved     _npmUser: { name: 'andrewnez', email: 'andrewnez@gmail.com' },
+523 silly resolved     maintainers: [ [Object] ],
+523 silly resolved     directories: {},
+523 silly resolved     _shasum: '7b4174c2f94449753b11c2651c083da841a7b084',
+523 silly resolved     _resolved: 'https://registry.npmjs.org/base62/-/base62-0.1.1.tgz',
+523 silly resolved     _from: 'base62@0.1.1',
+523 silly resolved     bugs: { url: 'https://github.com/andrew/base62.js/issues' },
+523 silly resolved     readme: 'ERROR: No README data found!',
+523 silly resolved     homepage: 'https://github.com/andrew/base62.js#readme' },
+523 silly resolved   { name: 'source-map',
+523 silly resolved     description: 'Generates and consumes source maps',
+523 silly resolved     version: '0.1.31',
+523 silly resolved     homepage: 'https://github.com/mozilla/source-map',
+523 silly resolved     author: { name: 'Nick Fitzgerald', email: 'nfitzgerald@mozilla.com' },
+523 silly resolved     contributors:
+523 silly resolved      [ [Object],
+523 silly resolved        [Object],
+523 silly resolved        [Object],
+523 silly resolved        [Object],
+523 silly resolved        [Object],
+523 silly resolved        [Object],
+523 silly resolved        [Object],
+523 silly resolved        [Object],
+523 silly resolved        [Object],
+523 silly resolved        [Object],
+523 silly resolved        [Object],
+523 silly resolved        [Object],
+523 silly resolved        [Object],
+523 silly resolved        [Object],
+523 silly resolved        [Object],
+523 silly resolved        [Object] ],
+523 silly resolved     repository:
+523 silly resolved      { type: 'git',
+523 silly resolved        url: 'git+ssh://git@github.com/mozilla/source-map.git' },
+523 silly resolved     directories: { lib: './lib' },
+523 silly resolved     main: './lib/source-map.js',
+523 silly resolved     engines: { node: '>=0.8.0' },
+523 silly resolved     licenses: [ [Object] ],
+523 silly resolved     dependencies: { amdefine: '>=0.0.4' },
+523 silly resolved     devDependencies: { dryice: '>=0.4.8' },
+523 silly resolved     scripts:
+523 silly resolved      { test: 'node test/run-tests.js',
+523 silly resolved        build: 'node Makefile.dryice.js' },
+523 silly resolved     _id: 'source-map@0.1.31',
+523 silly resolved     dist:
+523 silly resolved      { shasum: '9f704d0d69d9e138a81badf6ebb4fde33d151c61',
+523 silly resolved        tarball: 'http://registry.npmjs.org/source-map/-/source-map-0.1.31.tgz' },
+523 silly resolved     _from: 'source-map@0.1.31',
+523 silly resolved     _npmVersion: '1.2.18',
+523 silly resolved     _npmUser: { name: 'nickfitzgerald', email: 'fitzgen@gmail.com' },
+523 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+523 silly resolved     _shasum: '9f704d0d69d9e138a81badf6ebb4fde33d151c61',
+523 silly resolved     _resolved: 'https://registry.npmjs.org/source-map/-/source-map-0.1.31.tgz',
+523 silly resolved     bugs: { url: 'https://github.com/mozilla/source-map/issues' },
+523 silly resolved     readme: 'ERROR: No README data found!' },
+523 silly resolved   { name: 'esprima-fb',
+523 silly resolved     description: 'Facebook-specific fork of the esprima project',
+523 silly resolved     homepage: 'https://github.com/facebook/esprima/tree/fb-harmony',
+523 silly resolved     main: 'esprima.js',
+523 silly resolved     bin:
+523 silly resolved      { esparse: './bin/esparse.js',
+523 silly resolved        esvalidate: './bin/esvalidate.js' },
+523 silly resolved     version: '13001.1001.0-dev-harmony-fb',
+523 silly resolved     files:
+523 silly resolved      [ 'bin',
+523 silly resolved        'test/run.js',
+523 silly resolved        'test/runner.js',
+523 silly resolved        'test/test.js',
+523 silly resolved        'test/compat.js',
+523 silly resolved        'test/reflect.js',
+523 silly resolved        'esprima.js' ],
+523 silly resolved     engines: { node: '>=0.4.0' },
+523 silly resolved     author: { name: 'Ariya Hidayat', email: 'ariya.hidayat@gmail.com' },
+523 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+523 silly resolved     repository:
+523 silly resolved      { type: 'git',
+523 silly resolved        url: 'git+ssh://git@github.com/facebook/esprima.git' },
+523 silly resolved     bugs: { url: 'http://issues.esprima.org' },
+523 silly resolved     licenses: [ [Object] ],
+523 silly resolved     devDependencies:
+523 silly resolved      { eslint: '~0.12.0',
+523 silly resolved        jscs: '~1.10.0',
+523 silly resolved        istanbul: '~0.2.6',
+523 silly resolved        'escomplex-js': '1.0.0',
+523 silly resolved        'complexity-report': '~1.1.1',
+523 silly resolved        regenerate: '~0.5.4',
+523 silly resolved        'unicode-6.3.0': '~0.1.0',
+523 silly resolved        'json-diff': '~0.3.1',
+523 silly resolved        commander: '~2.5.0' },
+523 silly resolved     scripts:
+523 silly resolved      { 'generate-regex': 'node tools/generate-identifier-regex.js',
+523 silly resolved        test: 'node test/run.js && npm run lint && npm run coverage',
+523 silly resolved        lint: 'npm run check-version && npm run eslint && npm run jscs && npm run complexity',
+523 silly resolved        'check-version': 'node tools/check-version.js',
+523 silly resolved        jscs: 'jscs esprima.js test/*test.js',
+523 silly resolved        eslint: 'node node_modules/eslint/bin/eslint.js esprima.js',
+523 silly resolved        complexity: 'node tools/list-complexity.js && cr -s -l -w --maxcyc 18 esprima.js',
+523 silly resolved        coverage: 'npm run analyze-coverage && npm run check-coverage',
+523 silly resolved        'analyze-coverage': 'node node_modules/istanbul/lib/cli.js cover test/runner.js',
+523 silly resolved        'check-coverage': 'node node_modules/istanbul/lib/cli.js check-coverage --statement 100 --branch 100 --function 100',
+523 silly resolved        benchmark: 'node test/benchmarks.js',
+523 silly resolved        'benchmark-quick': 'node test/benchmarks.js quick' },
+523 silly resolved     gitHead: 'a3ae0c054867db61166dd72affc579710b36476d',
+523 silly resolved     _id: 'esprima-fb@13001.1001.0-dev-harmony-fb',
+523 silly resolved     _shasum: '633acdb40d9bd4db8a1c1d68c06a942959fad2b0',
+523 silly resolved     _from: 'esprima-fb@13001.1001.0-dev-harmony-fb',
+523 silly resolved     _npmVersion: '1.4.16',
+523 silly resolved     _npmUser: { name: 'gabelevi', email: 'gabelevi@gmail.com' },
+523 silly resolved     dist:
+523 silly resolved      { shasum: '633acdb40d9bd4db8a1c1d68c06a942959fad2b0',
+523 silly resolved        tarball: 'http://registry.npmjs.org/esprima-fb/-/esprima-fb-13001.1001.0-dev-harmony-fb.tgz' },
+523 silly resolved     directories: {},
+523 silly resolved     _resolved: 'https://registry.npmjs.org/esprima-fb/-/esprima-fb-13001.1001.0-dev-harmony-fb.tgz',
+523 silly resolved     readme: 'ERROR: No README data found!' } ]
+524 info install base62@0.1.1 into /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform
+525 info install source-map@0.1.31 into /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform
+526 info install esprima-fb@13001.1001.0-dev-harmony-fb into /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform
+527 info installOne base62@0.1.1
+528 info installOne source-map@0.1.31
+529 info installOne esprima-fb@13001.1001.0-dev-harmony-fb
+530 verbose node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62 unbuild
+531 verbose node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map unbuild
+532 verbose node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb unbuild
+533 verbose tar unpack /Users/dinnagonzales/.npm/base62/0.1.1/package.tgz
+534 silly lockFile 1c1d64f5--jstransform-node-modules-base62 tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62
+535 verbose lock tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62 /Users/dinnagonzales/.npm/1c1d64f5--jstransform-node-modules-base62.lock
+536 silly lockFile d052a46b-les-npm-base62-0-1-1-package-tgz tar:///Users/dinnagonzales/.npm/base62/0.1.1/package.tgz
+537 verbose lock tar:///Users/dinnagonzales/.npm/base62/0.1.1/package.tgz /Users/dinnagonzales/.npm/d052a46b-les-npm-base62-0-1-1-package-tgz.lock
+538 verbose tar unpack /Users/dinnagonzales/.npm/source-map/0.1.31/package.tgz
+539 silly lockFile 100d34a6-ransform-node-modules-source-map tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map
+540 verbose lock tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map /Users/dinnagonzales/.npm/100d34a6-ransform-node-modules-source-map.lock
+541 silly lockFile 72ebf5d3-pm-source-map-0-1-31-package-tgz tar:///Users/dinnagonzales/.npm/source-map/0.1.31/package.tgz
+542 verbose lock tar:///Users/dinnagonzales/.npm/source-map/0.1.31/package.tgz /Users/dinnagonzales/.npm/72ebf5d3-pm-source-map-0-1-31-package-tgz.lock
+543 verbose tar unpack /Users/dinnagonzales/.npm/esprima-fb/13001.1001.0-dev-harmony-fb/package.tgz
+544 silly lockFile 8c8f7a57-ransform-node-modules-esprima-fb tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb
+545 verbose lock tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb /Users/dinnagonzales/.npm/8c8f7a57-ransform-node-modules-esprima-fb.lock
+546 silly lockFile cef212f9-001-0-dev-harmony-fb-package-tgz tar:///Users/dinnagonzales/.npm/esprima-fb/13001.1001.0-dev-harmony-fb/package.tgz
+547 verbose lock tar:///Users/dinnagonzales/.npm/esprima-fb/13001.1001.0-dev-harmony-fb/package.tgz /Users/dinnagonzales/.npm/cef212f9-001-0-dev-harmony-fb-package-tgz.lock
+548 silly gunzTarPerm modes [ '755', '644' ]
+549 silly gunzTarPerm modes [ '755', '644' ]
+550 silly gunzTarPerm modes [ '755', '644' ]
+551 silly gunzTarPerm extractEntry package.json
+552 silly gunzTarPerm extractEntry package.json
+553 silly gunzTarPerm extractEntry package.json
+554 silly gunzTarPerm extractEntry LICENSE
+555 silly gunzTarPerm extractEntry base62.js
+556 silly gunzTarPerm extractEntry .npmignore
+557 silly gunzTarPerm extractEntry README.md
+558 silly gunzTarPerm extractEntry README.md
+559 silly gunzTarPerm extractEntry esprima.js
+560 silly gunzTarPerm extractEntry .travis.yml
+561 silly gunzTarPerm extractEntry Readme.md
+562 silly gunzTarPerm extractEntry LICENSE
+563 silly gunzTarPerm extractEntry bin/esparse.js
+564 silly gunzTarPerm extractEntry test/test.js
+565 silly gunzTarPerm extractEntry Makefile.dryice.js
+566 silly gunzTarPerm extractEntry .travis.yml
+567 silly gunzTarPerm extractEntry bin/esvalidate.js
+568 silly gunzTarPerm extractEntry test/compat.js
+569 silly gunzTarPerm extractEntry test/reflect.js
+570 silly gunzTarPerm extractEntry CHANGELOG.md
+571 silly gunzTarPerm extractEntry build/assert-shim.js
+572 silly lockFile 1c1d64f5--jstransform-node-modules-base62 tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62
+573 silly lockFile 1c1d64f5--jstransform-node-modules-base62 tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62
+574 silly lockFile d052a46b-les-npm-base62-0-1-1-package-tgz tar:///Users/dinnagonzales/.npm/base62/0.1.1/package.tgz
+575 silly lockFile d052a46b-les-npm-base62-0-1-1-package-tgz tar:///Users/dinnagonzales/.npm/base62/0.1.1/package.tgz
+576 silly gunzTarPerm extractEntry build/mini-require.js
+577 silly gunzTarPerm extractEntry build/suffix-browser.js
+578 info preinstall base62@0.1.1
+579 verbose readDependencies using package.json deps
+580 verbose readDependencies using package.json deps
+581 silly resolved []
+582 verbose about to build /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62
+583 info build /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62
+584 verbose linkStuff [ false,
+584 verbose linkStuff   false,
+584 verbose linkStuff   false,
+584 verbose linkStuff   '/Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules' ]
+585 info linkStuff base62@0.1.1
+586 verbose linkBins base62@0.1.1
+587 verbose linkMans base62@0.1.1
+588 verbose rebuildBundles base62@0.1.1
+589 info install base62@0.1.1
+590 info postinstall base62@0.1.1
+591 silly gunzTarPerm extractEntry build/test-prefix.js
+592 silly gunzTarPerm extractEntry build/test-suffix.js
+593 silly gunzTarPerm extractEntry build/prefix-source-map.jsm
+594 silly gunzTarPerm extractEntry build/prefix-utils.jsm
+595 silly gunzTarPerm extractEntry test/run.js
+596 silly gunzTarPerm extractEntry build/suffix-source-map.jsm
+597 silly gunzTarPerm extractEntry build/suffix-utils.jsm
+598 silly gunzTarPerm extractEntry lib/source-map.js
+599 silly gunzTarPerm extractEntry lib/source-map/array-set.js
+600 silly gunzTarPerm extractEntry test/runner.js
+601 silly gunzTarPerm extractEntry lib/source-map/base64-vlq.js
+602 silly gunzTarPerm extractEntry lib/source-map/base64.js
+603 silly gunzTarPerm extractEntry lib/source-map/binary-search.js
+604 silly gunzTarPerm extractEntry lib/source-map/source-map-consumer.js
+605 silly gunzTarPerm extractEntry lib/source-map/source-map-generator.js
+606 silly gunzTarPerm extractEntry lib/source-map/source-node.js
+607 silly gunzTarPerm extractEntry lib/source-map/util.js
+608 silly gunzTarPerm extractEntry test/run-tests.js
+609 silly gunzTarPerm extractEntry test/test.js
+610 silly gunzTarPerm extractEntry test/source-map/test-api.js
+611 silly gunzTarPerm extractEntry test/source-map/test-array-set.js
+612 silly gunzTarPerm extractEntry test/source-map/test-base64-vlq.js
+613 silly gunzTarPerm extractEntry test/source-map/test-base64.js
+614 silly gunzTarPerm extractEntry test/source-map/test-binary-search.js
+615 silly gunzTarPerm extractEntry test/source-map/test-dog-fooding.js
+616 silly gunzTarPerm extractEntry test/source-map/test-source-map-consumer.js
+617 silly gunzTarPerm extractEntry test/source-map/test-source-map-generator.js
+618 silly gunzTarPerm extractEntry test/source-map/test-source-node.js
+619 silly gunzTarPerm extractEntry test/source-map/util.js
+620 silly lockFile 100d34a6-ransform-node-modules-source-map tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map
+621 silly lockFile 100d34a6-ransform-node-modules-source-map tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map
+622 silly lockFile 72ebf5d3-pm-source-map-0-1-31-package-tgz tar:///Users/dinnagonzales/.npm/source-map/0.1.31/package.tgz
+623 silly lockFile 72ebf5d3-pm-source-map-0-1-31-package-tgz tar:///Users/dinnagonzales/.npm/source-map/0.1.31/package.tgz
+624 info preinstall source-map@0.1.31
+625 verbose readDependencies using package.json deps
+626 verbose readDependencies using package.json deps
+627 verbose cache add [ 'amdefine@>=0.0.4', null ]
+628 verbose cache add name=undefined spec="amdefine@>=0.0.4" args=["amdefine@>=0.0.4",null]
+629 verbose parsed url { protocol: null,
+629 verbose parsed url   slashes: null,
+629 verbose parsed url   auth: null,
+629 verbose parsed url   host: null,
+629 verbose parsed url   port: null,
+629 verbose parsed url   hostname: null,
+629 verbose parsed url   hash: null,
+629 verbose parsed url   search: null,
+629 verbose parsed url   query: null,
+629 verbose parsed url   pathname: 'amdefine@%3E=0.0.4',
+629 verbose parsed url   path: 'amdefine@%3E=0.0.4',
+629 verbose parsed url   href: 'amdefine@%3E=0.0.4' }
+630 verbose cache add name="amdefine" spec=">=0.0.4" args=["amdefine",">=0.0.4"]
+631 verbose parsed url { protocol: null,
+631 verbose parsed url   slashes: null,
+631 verbose parsed url   auth: null,
+631 verbose parsed url   host: null,
+631 verbose parsed url   port: null,
+631 verbose parsed url   hostname: null,
+631 verbose parsed url   hash: null,
+631 verbose parsed url   search: null,
+631 verbose parsed url   query: null,
+631 verbose parsed url   pathname: '%3E=0.0.4',
+631 verbose parsed url   path: '%3E=0.0.4',
+631 verbose parsed url   href: '%3E=0.0.4' }
+632 verbose addNamed [ 'amdefine', '>=0.0.4' ]
+633 verbose addNamed [ null, '>=0.0.4' ]
+634 silly lockFile 165d2d7b-amdefine-0-0-4 amdefine@>=0.0.4
+635 verbose lock amdefine@>=0.0.4 /Users/dinnagonzales/.npm/165d2d7b-amdefine-0-0-4.lock
+636 silly addNameRange { name: 'amdefine', range: '>=0.0.4', hasData: false }
+637 verbose request where is /amdefine
+638 verbose request registry https://registry.npmjs.org/
+639 verbose url raw /amdefine
+640 verbose url resolving [ 'https://registry.npmjs.org/', './amdefine' ]
+641 verbose url resolved https://registry.npmjs.org/amdefine
+642 verbose request where is https://registry.npmjs.org/amdefine
+643 info trying registry request attempt 1 at 20:41:35
+644 verbose etag "6U9GHH4I8CAX7G1R4EWYEO1Z9"
+645 http GET https://registry.npmjs.org/amdefine
+646 silly lockFile 8c8f7a57-ransform-node-modules-esprima-fb tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb
+647 silly lockFile 8c8f7a57-ransform-node-modules-esprima-fb tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb
+648 silly lockFile cef212f9-001-0-dev-harmony-fb-package-tgz tar:///Users/dinnagonzales/.npm/esprima-fb/13001.1001.0-dev-harmony-fb/package.tgz
+649 silly lockFile cef212f9-001-0-dev-harmony-fb-package-tgz tar:///Users/dinnagonzales/.npm/esprima-fb/13001.1001.0-dev-harmony-fb/package.tgz
+650 info preinstall esprima-fb@13001.1001.0-dev-harmony-fb
+651 verbose readDependencies using package.json deps
+652 verbose readDependencies using package.json deps
+653 silly resolved []
+654 verbose about to build /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb
+655 info build /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb
+656 verbose linkStuff [ false,
+656 verbose linkStuff   false,
+656 verbose linkStuff   false,
+656 verbose linkStuff   '/Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules' ]
+657 info linkStuff esprima-fb@13001.1001.0-dev-harmony-fb
+658 verbose linkBins esprima-fb@13001.1001.0-dev-harmony-fb
+659 verbose link bins [ { esparse: './bin/esparse.js',
+659 verbose link bins     esvalidate: './bin/esvalidate.js' },
+659 verbose link bins   '/Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/.bin',
+659 verbose link bins   false ]
+660 verbose linkMans esprima-fb@13001.1001.0-dev-harmony-fb
+661 verbose rebuildBundles esprima-fb@13001.1001.0-dev-harmony-fb
+662 info install esprima-fb@13001.1001.0-dev-harmony-fb
+663 info postinstall esprima-fb@13001.1001.0-dev-harmony-fb
+664 http 304 https://registry.npmjs.org/amdefine
+665 silly registry.get cb [ 304,
+665 silly registry.get   { date: 'Tue, 17 Nov 2015 04:41:42 GMT',
+665 silly registry.get     via: '1.1 varnish',
+665 silly registry.get     'cache-control': 'max-age=60',
+665 silly registry.get     etag: '"6U9GHH4I8CAX7G1R4EWYEO1Z9"',
+665 silly registry.get     age: '9',
+665 silly registry.get     connection: 'keep-alive',
+665 silly registry.get     'x-served-by': 'cache-sjc3132-SJC',
+665 silly registry.get     'x-cache': 'HIT',
+665 silly registry.get     'x-cache-hits': '2',
+665 silly registry.get     'x-timer': 'S1447735302.069782,VS0,VE0',
+665 silly registry.get     vary: 'Accept' } ]
+666 verbose etag https://registry.npmjs.org/amdefine from cache
+667 silly addNameRange number 2 { name: 'amdefine', range: '>=0.0.4', hasData: true }
+668 silly addNameRange versions [ 'amdefine',
+668 silly addNameRange   [ '0.0.1',
+668 silly addNameRange     '0.0.2',
+668 silly addNameRange     '0.0.3',
+668 silly addNameRange     '0.0.4',
+668 silly addNameRange     '0.0.5',
+668 silly addNameRange     '0.0.6',
+668 silly addNameRange     '0.0.7',
+668 silly addNameRange     '0.0.8',
+668 silly addNameRange     '0.1.0',
+668 silly addNameRange     '0.1.1',
+668 silly addNameRange     '1.0.0' ] ]
+669 verbose addNamed [ 'amdefine', '1.0.0' ]
+670 verbose addNamed [ '1.0.0', '1.0.0' ]
+671 silly lockFile c54e608e-amdefine-1-0-0 amdefine@1.0.0
+672 verbose lock amdefine@1.0.0 /Users/dinnagonzales/.npm/c54e608e-amdefine-1-0-0.lock
+673 silly lockFile c54e608e-amdefine-1-0-0 amdefine@1.0.0
+674 silly lockFile c54e608e-amdefine-1-0-0 amdefine@1.0.0
+675 silly lockFile 165d2d7b-amdefine-0-0-4 amdefine@>=0.0.4
+676 silly lockFile 165d2d7b-amdefine-0-0-4 amdefine@>=0.0.4
+677 silly resolved [ { name: 'amdefine',
+677 silly resolved     description: 'Provide AMD\'s define() API for declaring modules in the AMD format',
+677 silly resolved     version: '1.0.0',
+677 silly resolved     homepage: 'http://github.com/jrburke/amdefine',
+677 silly resolved     author:
+677 silly resolved      { name: 'James Burke',
+677 silly resolved        email: 'jrburke@gmail.com',
+677 silly resolved        url: 'http://github.com/jrburke' },
+677 silly resolved     license: 'BSD-3-Clause AND MIT',
+677 silly resolved     repository:
+677 silly resolved      { type: 'git',
+677 silly resolved        url: 'git+https://github.com/jrburke/amdefine.git' },
+677 silly resolved     main: './amdefine.js',
+677 silly resolved     engines: { node: '>=0.4.2' },
+677 silly resolved     gitHead: '578bc4a3f7dede33f3f3e10edde0c1607005d761',
+677 silly resolved     bugs: { url: 'https://github.com/jrburke/amdefine/issues' },
+677 silly resolved     _id: 'amdefine@1.0.0',
+677 silly resolved     scripts: {},
+677 silly resolved     _shasum: 'fd17474700cb5cc9c2b709f0be9d23ce3c198c33',
+677 silly resolved     _from: 'amdefine@>=0.0.4',
+677 silly resolved     _npmVersion: '2.12.1',
+677 silly resolved     _nodeVersion: '0.10.36',
+677 silly resolved     _npmUser: { name: 'jrburke', email: 'jrburke@gmail.com' },
+677 silly resolved     maintainers: [ [Object] ],
+677 silly resolved     dist:
+677 silly resolved      { shasum: 'fd17474700cb5cc9c2b709f0be9d23ce3c198c33',
+677 silly resolved        tarball: 'http://registry.npmjs.org/amdefine/-/amdefine-1.0.0.tgz' },
+677 silly resolved     directories: {},
+677 silly resolved     _resolved: 'https://registry.npmjs.org/amdefine/-/amdefine-1.0.0.tgz',
+677 silly resolved     readme: 'ERROR: No README data found!' } ]
+678 info install amdefine@1.0.0 into /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map
+679 info installOne amdefine@1.0.0
+680 verbose node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine unbuild
+681 verbose tar unpack /Users/dinnagonzales/.npm/amdefine/1.0.0/package.tgz
+682 silly lockFile 4ad271d3-source-map-node-modules-amdefine tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine
+683 verbose lock tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine /Users/dinnagonzales/.npm/4ad271d3-source-map-node-modules-amdefine.lock
+684 silly lockFile f1cef353-s-npm-amdefine-1-0-0-package-tgz tar:///Users/dinnagonzales/.npm/amdefine/1.0.0/package.tgz
+685 verbose lock tar:///Users/dinnagonzales/.npm/amdefine/1.0.0/package.tgz /Users/dinnagonzales/.npm/f1cef353-s-npm-amdefine-1-0-0-package-tgz.lock
+686 silly gunzTarPerm modes [ '755', '644' ]
+687 silly gunzTarPerm extractEntry package.json
+688 silly gunzTarPerm extractEntry README.md
+689 silly gunzTarPerm extractEntry LICENSE
+690 silly gunzTarPerm extractEntry amdefine.js
+691 silly gunzTarPerm extractEntry intercept.js
+692 silly lockFile 4ad271d3-source-map-node-modules-amdefine tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine
+693 silly lockFile 4ad271d3-source-map-node-modules-amdefine tar:///Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine
+694 silly lockFile f1cef353-s-npm-amdefine-1-0-0-package-tgz tar:///Users/dinnagonzales/.npm/amdefine/1.0.0/package.tgz
+695 silly lockFile f1cef353-s-npm-amdefine-1-0-0-package-tgz tar:///Users/dinnagonzales/.npm/amdefine/1.0.0/package.tgz
+696 info preinstall amdefine@1.0.0
+697 verbose readDependencies using package.json deps
+698 verbose readDependencies using package.json deps
+699 silly resolved []
+700 verbose about to build /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine
+701 info build /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine
+702 verbose linkStuff [ false,
+702 verbose linkStuff   false,
+702 verbose linkStuff   false,
+702 verbose linkStuff   '/Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules' ]
+703 info linkStuff amdefine@1.0.0
+704 verbose linkBins amdefine@1.0.0
+705 verbose linkMans amdefine@1.0.0
+706 verbose rebuildBundles amdefine@1.0.0
+707 info install amdefine@1.0.0
+708 info postinstall amdefine@1.0.0
+709 verbose about to build /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map
+710 info build /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map
+711 verbose linkStuff [ false,
+711 verbose linkStuff   false,
+711 verbose linkStuff   false,
+711 verbose linkStuff   '/Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules' ]
+712 info linkStuff source-map@0.1.31
+713 verbose linkBins source-map@0.1.31
+714 verbose linkMans source-map@0.1.31
+715 verbose rebuildBundles source-map@0.1.31
+716 verbose rebuildBundles [ 'amdefine' ]
+717 info install source-map@0.1.31
+718 info postinstall source-map@0.1.31
+719 verbose about to build /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform
+720 info build /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules/jstransform
+721 verbose linkStuff [ false,
+721 verbose linkStuff   false,
+721 verbose linkStuff   false,
+721 verbose linkStuff   '/Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify/node_modules' ]
+722 info linkStuff jstransform@10.1.0
+723 verbose linkBins jstransform@10.1.0
+724 verbose linkMans jstransform@10.1.0
+725 verbose rebuildBundles jstransform@10.1.0
+726 verbose rebuildBundles [ '.bin', 'base62', 'esprima-fb', 'source-map' ]
+727 info install jstransform@10.1.0
+728 info postinstall jstransform@10.1.0
+729 verbose about to build /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify
+730 info build /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/envify
+731 verbose linkStuff [ false,
+731 verbose linkStuff   false,
+731 verbose linkStuff   false,
+731 verbose linkStuff   '/Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules' ]
+732 info linkStuff envify@3.4.0
+733 verbose linkBins envify@3.4.0
+734 verbose link bins [ { envify: 'bin/envify' },
+734 verbose link bins   '/Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react/node_modules/.bin',
+734 verbose link bins   false ]
+735 verbose linkMans envify@3.4.0
+736 verbose rebuildBundles envify@3.4.0
+737 verbose rebuildBundles [ 'jstransform', 'through' ]
+738 info install envify@3.4.0
+739 info postinstall envify@3.4.0
+740 verbose about to build /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react
+741 info build /Users/dinnagonzales/Documents/StoryBoxCollection/node_modules/react
+742 verbose linkStuff [ false,
+742 verbose linkStuff   false,
+742 verbose linkStuff   false,
+742 verbose linkStuff   '/Users/dinnagonzales/Documents/StoryBoxCollection/node_modules' ]
+743 info linkStuff react@0.12.0
+744 verbose linkBins react@0.12.0
+745 verbose linkMans react@0.12.0
+746 verbose rebuildBundles react@0.12.0
+747 verbose rebuildBundles [ '.bin', 'envify' ]
+748 info install react@0.12.0
+749 info postinstall react@0.12.0
+750 error peerinvalid The package react does not satisfy its siblings' peerDependencies requirements!
+750 error peerinvalid Peer react-dom@0.14.2 wants react@^0.14.2
+750 error peerinvalid Peer react-iframe@0.0.3 wants react@>=0.13.x
+751 error System Darwin 13.4.0
+752 error command "/Users/dinnagonzales/.nvm/v0.10.40/bin/node" "/Users/dinnagonzales/.nvm/v0.10.40/bin/npm" "install" "--save" "react@0.12.0"
+753 error cwd /Users/dinnagonzales/Documents/StoryBoxCollection
+754 error node -v v0.10.40
+755 error npm -v 1.4.28
+756 error code EPEERINVALID
+757 verbose exit [ 1, true ]

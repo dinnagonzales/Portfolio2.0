@@ -44,7 +44,8 @@
     "flux": "^2.0.1",
     "immutable": "^3.4.1",
     "object-assign": "^2.0.0",
-    "react": "^0.12.2",
+    "react": "^0.14.2",
+    "react-iframe": "0.0.3",
     "react-tools": "^0.12.2",
     "reactify": "^0.17.1"
   }
