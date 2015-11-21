@@ -1,0 +1,22 @@
+@import 'fonts';
+
+.projects{
+	text-align: center;
+
+	h6{
+		font-size: 1rem;
+		text-transform: uppercase;
+		letter-spacing: 10px;
+	}
+
+	.columns{
+		border: 1px solid pink;
+	}
+	.row > .columns >.row{
+		text-align: left; 
+		& > h5{
+			font-family: 'Bellwethers';
+		}
+	}
+
+}

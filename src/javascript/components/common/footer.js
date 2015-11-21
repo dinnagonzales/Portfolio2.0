@@ -6,9 +6,19 @@ var React = require('react');
 var Footer = React.createClass({
   render: function() {
     return (
-    	<div className='small-12 small-centered columns footer'>
-        	<span>Story Box Collection © 2015</span>
-    	</div>
+    	<footer>
+    		<div className='row'>
+    			<div className='medium-12 columns'>
+        			<span>Dinna Gonzales © 2015  |  Jeremiah 29:11</span>
+        		</div>
+        		<div className='medium-12 columns'>
+        			<img src='../../assets/github.png'/>
+        			<img src='../../assets/linkedIn.png'/>
+        			<img src='../../assets/resume.png'/>
+        			<img src='../../assets/instagram.png'/>
+        		</div>
+        	</div>
+    	</footer>
     );
   }
 });

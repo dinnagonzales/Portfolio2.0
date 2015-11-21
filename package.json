@@ -1,10 +1,10 @@
 {
-  "name": "reactreact-multi-step-form",
-  "version": "1.0.0",
-  "description": "A base for building a react app.",
+  "name": "dinna-gonzales-portfolio",
+  "version": "2.0.0",
+  "description": "My Web Development Portfolio.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tommymarshall/reactreact-multi-step-form.git"
+    "url": "https://github.com/dinnagonzales/Portfolio2.0"
   },
   "browserify": {
     "transform": [
@@ -42,11 +42,20 @@
   },
   "dependencies": {
     "flux": "^2.0.1",
+    "gulp-fontgen": "^0.1.5",
     "immutable": "^3.4.1",
     "object-assign": "^2.0.0",
     "react": "^0.14.2",
     "react-iframe": "0.0.3",
     "react-tools": "^0.12.2",
     "reactify": "^0.17.1"
+  },
+  "overrides": {
+    "chromount": {
+        "main": [
+            "assets/Chromount.woff2",
+            "assets/Chromount.woff"
+        ]
+    }
   }
 }

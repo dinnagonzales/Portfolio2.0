@@ -11,6 +11,10 @@ module.exports = {
       '!' + dest + '/**.map'
     ]
   },
+  fonts:{
+    src: [ src + '/assets/**/*.{woff,woff2}'],
+    dest: dest
+  },
   sass: {
     src: src + '/sass/**/*.scss',
     dest: dest
