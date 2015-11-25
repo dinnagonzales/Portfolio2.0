@@ -1,0 +1,26 @@
+@import 'colors';
+
+.design-projects{
+	border-top: 2px solid $purple;
+	padding: 3rem 0 4rem;
+	overflow: auto;
+	margin-bottom: 4rem;
+
+	.proj {
+		background-color: rgba(255,255,255,0.4);
+		border-radius: 0.5rem;
+		border:1px solid $purple;
+		padding: 1rem 0;
+		margin-bottom: 2rem;
+		height: 15rem;
+		overflow: hidden;
+	}
+	#open{
+		cursor: pointer;
+		-ms-transform: rotate(-90deg);
+    	-webkit-transform: rotate(-90deg);
+    	transform: rotate(-90deg);
+		width: 1.4rem;
+		margin: 1rem;
+	}
+}

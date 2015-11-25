@@ -11,7 +11,7 @@ var Icon = React.createClass({
     var svg = Icons[type];
     var html = svg.icon;
     return (
-      <div className="icon">
+      <div className="icon" id={ type }>
         <svg viewBox={svg.viewBox}>
           <g key={html} dangerouslySetInnerHTML={{__html: html}} />
         </svg>

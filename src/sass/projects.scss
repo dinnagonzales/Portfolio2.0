@@ -1,22 +1,27 @@
-@import 'fonts';
+@import 'fonts',
+		'colors';
 
 .projects{
 	text-align: center;
-
-	h6{
-		font-size: 1rem;
-		text-transform: uppercase;
-		letter-spacing: 10px;
+	
+	h4{
+		font-family: 'Bellwethers';
+		color: $purple;
+		margin: 0 auto;
+		background-color: $cream;
+		position: relative;
+		top: 2rem;
 	}
-
-	.columns{
-		border: 1px solid pink;
+	.dev-header{
+		width: 45rem;
 	}
-	.row > .columns >.row{
-		text-align: left; 
-		& > h5{
-			font-family: 'Bellwethers';
-		}
+	.design-header{
+		width: 30rem;
 	}
+}
 
+.development-projects{
+	border-top: 2px solid $purple;
+	padding-top: 3rem;
+	overflow: auto;
 }

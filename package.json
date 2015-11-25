@@ -44,6 +44,7 @@
     "flux": "^2.0.1",
     "gulp-fontgen": "^0.1.5",
     "immutable": "^3.4.1",
+    "lodash": "^3.10.1",
     "object-assign": "^2.0.0",
     "react": "^0.14.2",
     "react-iframe": "0.0.3",
@@ -52,10 +53,10 @@
   },
   "overrides": {
     "chromount": {
-        "main": [
-            "assets/Chromount.woff2",
-            "assets/Chromount.woff"
-        ]
+      "main": [
+        "assets/Chromount.woff2",
+        "assets/Chromount.woff"
+      ]
     }
   }
 }

@@ -2,15 +2,9 @@
 		'header',
 		'navigation',
 		'projects',
-		'project';
-article{
-	border: 1px solid green;
-	height:500px;
-	img{
-		border: 1px solid green;
-		height: 100% !important;
-	}
-}
+		'project',
+		'design-projects';
+
 body{
 	font-family: 'Lato', sans-serif;
 	background-color: $cream;
@@ -33,4 +27,8 @@ body{
 	h5{
 		font-size: 2rem;
 	}
+}
+
+.row{
+	max-width: 80rem;
 }
