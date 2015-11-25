@@ -1,26 +1,83 @@
 @import 'colors';
 
 .design-projects{
-	border-top: 2px solid $purple;
-	padding: 3rem 0 4rem;
+	padding: 3rem 0 0 0;
 	overflow: auto;
-	margin-bottom: 4rem;
-
-	.proj {
+	
+	hr{
+		border-color: $purple;
+		position: relative;
+		top: -3rem;
+		z-index: -1;
+	}
+	.design-header{
+		z-index: 100;
+		font-family: 'Bellwethers';
+		color: $purple;
+		width: 500px;
+		margin: 0 auto;
+		background-color: $cream;
+	}
+	.proj{
+		position: relative;
 		background-color: rgba(255,255,255,0.4);
-		border-radius: 0.5rem;
-		border:1px solid $purple;
-		padding: 1rem 0;
+		border-radius: 0.1rem;
+		border:1px solid $grey;
+		padding: 1rem;
 		margin-bottom: 2rem;
-		height: 15rem;
+		height:34.5rem;
 		overflow: hidden;
+		img{
+			border: 1px solid $grey;
+			margin-bottom: 1rem;
+
+		}
+		.view{
+			cursor: pointer;
+			position: absolute;
+			top: 1rem;
+			right: 1.6rem;
+
+			#open{
+				transform: rotate(-90deg);
+				width: 1.5rem;
+				height: 1.5rem;
+				display: inline-block;
+				position: relative;
+				top: 0.5rem;
+				left: 0.5rem;
+			}
+
+		}
 	}
-	#open{
-		cursor: pointer;
-		-ms-transform: rotate(-90deg);
-    	-webkit-transform: rotate(-90deg);
-    	transform: rotate(-90deg);
-		width: 1.4rem;
-		margin: 1rem;
+	.view.rotate > #open{
+		transform: rotate(90deg);
 	}
+
+	.proj.open, .proj.design{
+		overflow: auto;
+		height: auto;
+	}
+	.design figcaption{
+		color: $purple;
+		text-transform: uppercase;
+		letter-spacing: 0.2rem;
+		font-size: 1.2rem;
+		margin-bottom: 1.5rem;
+	}
+	.details{
+		text-align: left;
+		padding-left: 1rem;
+		h5{
+			letter-spacing: 0.3rem;
+			font-size: 1.9rem;
+			color: $purple;
+		}
+		& > p{
+			margin-top: 1rem;
+			font-size: 1.3rem;
+			letter-spacing: 0.05rem;
+		}
+	}
+
 }

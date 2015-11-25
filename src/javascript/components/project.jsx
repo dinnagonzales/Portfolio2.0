@@ -6,12 +6,11 @@ var Icon = require('./common/icon');
 var Copy = require('./common/photos').about;
 
 var Project = React.createClass({
+  displayName: 'Development Project',
   render: function() {
     return (
       <div className='small-12 medium-6 large-4 columns'>
-      	
       	<div className='project'>
-      	
       		<p className='project-title'>
       			{ this.props.title }
       		</p>

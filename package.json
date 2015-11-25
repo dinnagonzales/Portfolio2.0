@@ -44,6 +44,7 @@
     "flux": "^2.0.1",
     "gulp-fontgen": "^0.1.5",
     "immutable": "^3.4.1",
+    "jquery": "^2.1.4",
     "lodash": "^3.10.1",
     "object-assign": "^2.0.0",
     "react": "^0.14.2",

@@ -60,13 +60,31 @@ module.exports = {
 		'uccf':{
 			'image':'https://farm6.staticflickr.com/5809/22795011869_51fb3e5950_o.jpg',
 			'image2':'https://farm6.staticflickr.com/5834/23136871746_21bc2086d1_o.jpg'
+		},
+		'lrd':{
+			'logo':'https://farm6.staticflickr.com/5741/22534461194_786533d6e2_o.jpg',
+			'image':'https://farm1.staticflickr.com/744/22768826657_3893beff21_o.jpg',
+			'image2': 'https://farm6.staticflickr.com/5817/22768826827_1521905ba2_o.jpg'
+		},
+		'other':{
+			'logo1':'https://farm6.staticflickr.com/5805/23162994875_ffc7803a48_o.jpg',
+			'logo2':'https://farm6.staticflickr.com/5741/22534461194_786533d6e2_o.jpg',
+			'shirt1':'https://farm1.staticflickr.com/766/22795018919_7794e0f214_o.jpg',
+			'shirt2':'https://farm6.staticflickr.com/5720/23136878806_317d9c2569_o.jpg',
+			'invite1':'https://farm6.staticflickr.com/5653/23136880276_fe8bd5508d_o.jpg',
+			'invite2':'https://farm6.staticflickr.com/5679/23162995555_4db695f52c_o.jpg',
+			'invite3':'https://farm1.staticflickr.com/702/23162995765_88de223142_o.jpg'
 		}
 	},
 	'pandora':{
-		'2015':{
+		'jason':{
+			'image1':'https://farm1.staticflickr.com/725/22683090604_ea3cf1d885_o.jpg',
+			'image2':'https://farm1.staticflickr.com/772/23311454305_12892f7087_o.jpg',
 			'link': 'http://laguestlist.com/gallery/?wppa-occur=1&wppa-cover=0&wppa-album=15'
 		},
-		'2014':{
+		'iggy':{
+			'image1':'https://farm6.staticflickr.com/5667/23015666390_cc52da70e0_o.jpg',
+			'image2':'https://farm6.staticflickr.com/5752/23203163302_982855a70f_o.jpg',
 			'link':'http://laguestlist.com/pandora-presents-iggy-azalea/'
 		},
 	}

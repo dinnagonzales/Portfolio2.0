@@ -1,23 +1,30 @@
-@import 'fonts',
-		'colors';
+@import 'colors', 
+		'fonts';
 
-.projects{
+.photography{
 	text-align: center;
-	margin-top: 4rem;
+	
 	hr{
 		border-color: $purple;
 		position: relative;
 		top: -3rem;
 		z-index: -1;
 	}
-	.dev-header{
+	.photography-header{
 		z-index: 100;
 		font-family: 'Bellwethers';
 		color: $purple;
-		width: 500px;
+		width: 19rem;
+		padding: 0 2rem;
 		margin: 0 auto;
 		background-color: $cream;
 	}
-
+	.columns{
+		padding: 0;
+		
+		text-align: center;
+		figure{
+			width: auto;
+		}
+	}
 }
-

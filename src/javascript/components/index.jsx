@@ -3,38 +3,39 @@
  */
 var React = require('react');
 var Header = require('./header');
-var Footer = require('./common/footer');
 var Navigation = require('./navigation');
+var Footer = require('./common/footer');
+
+var Home = require('./home');
 var Projects = require('./projects');
+var Photography = require('./photography');
+var About = require('./about');
 
 var Index = React.createClass({
+  displayName: 'Dinna Gonzales Portfolio',
   getInitialState: function() {
     return {
-      page: 'projects'
+      page: 'home'
     };
   },
   renderPage: function() {
     switch (this.state.page) {
       case 'home':
-        return <Home goTo={ this.goTo }/>
+        return <Home />
       case 'projects':
         return <Projects />
-      case 'blog':
-        return <Blog />
+      case 'photography':
+        return <Photography />
       case 'about':
         return <About />
-      case 'contact':
-        return <Contact />
     }
   },
   goTo: function(page){
-    console.log(page);
     this.setState({
       page: page
     });
   },
   render: function() {
-    
     return (
       <div className='container'>
         <Header />

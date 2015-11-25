@@ -5,10 +5,12 @@
  var _= require('lodash');
  var Icon = require('./common/icon');
  var DevProjects = require('./common/projects').development;
+ var WebDesignProjects = require('./web-design');
  var DesignProjects = require('./design');
  var Project = require('./project');
 
  var Projects = React.createClass({
+ 	displayName: 'Web Projects',
  	renderDevelopmentProjects: function(){
  		var developmentProjects = _.map(DevProjects, function(proj, i){
  			return <Project 
@@ -22,6 +24,8 @@
  		});
  		return( 
  			<div className='development-projects row'>
+ 				<h4 className='dev-header'>Design + Development</h4>
+ 				<hr/>
  				{ developmentProjects }
  			</div>
  		);
@@ -29,9 +33,8 @@
  	render: function() {
  		return (
  			<div className='projects'>
- 				<h4 className='dev-header'>Web Development Projects</h4>
  				{ this.renderDevelopmentProjects() }
- 				<h4 className='design-header'>Design Projects</h4>
+ 				<WebDesignProjects />
  				<DesignProjects />
  			</div>
  			);

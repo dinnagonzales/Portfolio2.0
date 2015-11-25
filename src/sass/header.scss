@@ -1,21 +1,19 @@
 @import 'colors';
 @import 'fonts';
 
-.page-header{
+header.page-header{
 	background: url('./assets/flowers.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
-	padding: 2rem;
+	padding: 3rem;
 	text-align: center;
 	img{
-		height: 150px;
+		height: 160px;
 		margin: 0 auto;
-		
-		
-		widht: 100%;
 	}
 }
+
 footer{
 	background-color: $black;
 	color: $white;
@@ -34,7 +32,13 @@ footer{
 		text-align: right;
 	}
 	img{
+		cursor: pointer;
 		width: 1.5rem;
 		margin-right: 1rem;
+		position: relative;
+		top: 0;
+	}
+	img:hover{
+		top: -0.3rem;
 	}
 }
