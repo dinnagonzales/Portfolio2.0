@@ -21,8 +21,8 @@ var Navigation = React.createClass({
       <nav className='page-navigation'>
         <ul className='row'>
           <li className='large-2 columns' onClick={ this.goTo } id='home'><span>Home</span></li>
-          <li className='large-2 columns' onClick={ this.goTo } id='projects'><span>Projects</span></li>
-          <li className='large-3 columns' onClick={ this.goTo } id='photography'><span>Photography</span></li>
+          <li className='large-2 columns' onClick={ this.goTo } id='development'><span>Development</span></li>
+          <li className='large-3 columns' onClick={ this.goTo } id='design'><span>Design</span></li>
           <li className='large-2 columns' id='resume'>
             <a href="../assets/resume.pdf" download="DinnaGonzalesResume">
               <span>

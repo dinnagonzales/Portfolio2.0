@@ -15,6 +15,10 @@ header.page-header{
 }
 
 footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	background-color: $black;
 	color: $white;
 	padding: 0.8rem;

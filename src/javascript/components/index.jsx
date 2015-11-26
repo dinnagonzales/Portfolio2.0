@@ -7,8 +7,8 @@ var Navigation = require('./navigation');
 var Footer = require('./common/footer');
 
 var Home = require('./home');
-var Projects = require('./projects');
-var Photography = require('./photography');
+var Development = require('./development');
+var Design = require('./design-tab');
 var About = require('./about');
 
 var Index = React.createClass({
@@ -21,11 +21,11 @@ var Index = React.createClass({
   renderPage: function() {
     switch (this.state.page) {
       case 'home':
-        return <Home />
-      case 'projects':
-        return <Projects />
-      case 'photography':
-        return <Photography />
+        return <Home goTo={ this.goTo }/>
+      case 'development':
+        return <Development />
+      case 'design':
+        return <Design />
       case 'about':
         return <About />
     }
