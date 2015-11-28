@@ -35,6 +35,15 @@ module.exports = {
       json_path: src + '/data'
     }
   },
+  images: {
+    src: [ src + '/assets/**/*.{jpg,jpeg,png,gif}'],
+    dest: dest + '/assets',
+    options: {
+      optimizationLevel: 3,
+      progessive: true,
+      interlaced: true
+    }
+  },
   browserify: {
     debug: true,
     extensions: ['.jsx'],

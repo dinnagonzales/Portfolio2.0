@@ -1,0 +1,23 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/dinnagonzales/.nvm/v0.10.40/bin/node',
+1 verbose cli   '/Users/dinnagonzales/.nvm/v0.10.40/bin/npm',
+1 verbose cli   'completion',
+1 verbose cli   '--',
+1 verbose cli   'npm install gul' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 error TypeError: Cannot read property 'length' of undefined
+4 error     at EventEmitter.completion (/Users/dinnagonzales/.nvm/v0.10.40/lib/node_modules/npm/lib/completion.js:86:22)
+4 error     at Object.commandCache.(anonymous function) (/Users/dinnagonzales/.nvm/v0.10.40/lib/node_modules/npm/lib/npm.js:221:11)
+4 error     at EventEmitter.<anonymous> (/Users/dinnagonzales/.nvm/v0.10.40/lib/node_modules/npm/bin/npm-cli.js:84:28)
+4 error     at process._tickCallback (node.js:448:13)
+5 error If you need help, you may report this *entire* log,
+5 error including the npm and node versions, at:
+5 error     <http://github.com/npm/npm/issues>
+6 error System Darwin 13.4.0
+7 error command "/Users/dinnagonzales/.nvm/v0.10.40/bin/node" "/Users/dinnagonzales/.nvm/v0.10.40/bin/npm" "completion" "--" "npm install gul"
+8 error cwd /Users/dinnagonzales/Desktop/Portfolio 2.0
+9 error node -v v0.10.40
+10 error npm -v 1.4.28
+11 error type non_object_property_load
+12 verbose exit [ 1, true ]
