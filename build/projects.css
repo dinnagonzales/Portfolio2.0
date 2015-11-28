@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Bellwethers';
+  src: url('./assets/fonts/Bellwethers-Regular.woff') format('woff'); }
+
+/* line 4, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/projects.scss */
+.projects {
+  text-align: center;
+  margin-top: 4rem;
+  padding-bottom: 15rem; }
+  /* line 8, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/projects.scss */
+  .projects hr {
+    border-color: #141a7e;
+    position: relative;
+    top: -3rem;
+    z-index: -1; }
+  /* line 14, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/projects.scss */
+  .projects .dev-header {
+    z-index: 100;
+    font-family: 'Bellwethers';
+    color: #141a7e;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #f7f4e9; }

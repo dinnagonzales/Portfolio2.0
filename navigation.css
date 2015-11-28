@@ -1,0 +1,29 @@
+/* line 3, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+.page-navigation {
+  margin-top: 0.4rem;
+  margin-bottom: 1rem;
+  height: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-size: 8px !important;
+  border-top: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7; }
+  /* line 14, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+  .page-navigation li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0.2rem 0.2rem;
+    display: inline-block; }
+  /* line 20, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+  .page-navigation span {
+    cursor: pointer; }
+  /* line 23, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+  .page-navigation a {
+    color: #000; }
+  /* line 26, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+  .page-navigation .resume {
+    position: relative;
+    top: -0.2rem;
+    right: 0.5rem;
+    width: 1.5rem; }

@@ -1,1 +1,0 @@
-#Dinna Gonzales © 2015 

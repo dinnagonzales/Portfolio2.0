@@ -1,0 +1,78 @@
+/* line 3, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+.design-projects {
+  padding: 3rem 0 0 0;
+  overflow: auto; }
+  /* line 7, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+  .design-projects hr {
+    border-color: #141a7e;
+    position: relative;
+    top: -3rem;
+    z-index: -1; }
+  /* line 13, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+  .design-projects .design-header {
+    text-align: center;
+    z-index: 100;
+    font-family: 'Bellwethers';
+    color: #141a7e;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #f7f4e9; }
+  /* line 22, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+  .design-projects .proj {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 0.1rem;
+    border: 1px solid #d7d7d7;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    height: 34.5rem;
+    overflow: hidden; }
+    /* line 31, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+    .design-projects .proj img {
+      border: 1px solid #d7d7d7;
+      margin-bottom: 1rem; }
+    /* line 36, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+    .design-projects .proj .view {
+      cursor: pointer;
+      position: absolute;
+      top: 1rem;
+      right: 1.6rem; }
+      /* line 42, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+      .design-projects .proj .view #open {
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        width: 1.5rem;
+        height: 1.5rem;
+        display: inline-block;
+        position: relative;
+        top: 0.5rem;
+        left: 0.5rem; }
+  /* line 54, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+  .design-projects .view.rotate > #open {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg); }
+  /* line 58, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+  .design-projects .proj.open, .design-projects .proj.design {
+    overflow: auto;
+    height: auto; }
+  /* line 62, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+  .design-projects .design figcaption {
+    color: #141a7e;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem; }
+  /* line 69, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+  .design-projects .details {
+    text-align: left;
+    padding-left: 1rem; }
+    /* line 72, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+    .design-projects .details h5 {
+      letter-spacing: 0.3rem;
+      font-size: 1.9rem;
+      color: #141a7e; }
+    /* line 77, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+    .design-projects .details > p {
+      margin-top: 1rem;
+      font-size: 1.3rem;
+      letter-spacing: 0.05rem; }
