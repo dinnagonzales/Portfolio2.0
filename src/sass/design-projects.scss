@@ -1,7 +1,16 @@
 @import 'colors';
 
+.design-tab{
+	p{
+		text-align: center;
+		margin: 3rem auto 0;
+		max-width: 40rem;
+		font-size: 0.9rem;
+		letter-spacing: 0.1rem;
+	}
+}
 .design-projects{
-	padding: 3rem 0 0 0;
+	padding: 1rem 0 0 0;
 	overflow: auto;
 	
 	hr{
@@ -13,13 +22,15 @@
 	.design-header{
 		text-align: center;
 		z-index: 100;
-		font-family: 'Bellwethers';
+		font-family: 'Bellwethers', 'Sacramento';
 		color: $purple;
-		width: 500px;
+		width: 20rem;
+		font-size: 2rem;
 		margin: 0 auto;
 		background-color: $cream;
 	}
 	.proj{
+		text-align: center;
 		position: relative;
 		background-color: rgba(255,255,255,0.4);
 		border-radius: 0.1rem;
@@ -65,19 +76,22 @@
 		letter-spacing: 0.2rem;
 		font-size: 1.2rem;
 		margin-bottom: 1.5rem;
+		text-align: center;
 	}
 	.details{
 		text-align: left;
 		padding-left: 1rem;
+
 		h5{
 			letter-spacing: 0.3rem;
 			font-size: 1.9rem;
 			color: $purple;
 		}
-		& > p{
-			margin-top: 1rem;
-			font-size: 1.3rem;
-			letter-spacing: 0.05rem;
+
+		p{
+			margin: 1rem auto;
+			font-size: 1rem;
+			
 		}
 	}
 

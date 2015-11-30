@@ -3,11 +3,29 @@
  */
 var React = require('react');
 var Icon = require('./common/icon');
-var Copy = require('./common/photos').about;
 
 var Project = React.createClass({
   displayName: 'Development Project',
+  viewWebsite: function(){
+    if(this.props.title === 'Portfolio 2.0'){
+      return(
+      <div className='goTo grey'>
+          View Website
+          <Icon type='arrow'/>
+      </div>
+      );
+    }
+    return(
+      <div className='goTo'>
+        <a target='_blank' href={ this.props.website } >
+          View Website
+          <Icon type='arrow'/>
+        </a>
+      </div>
+    );  
+  },
   render: function() {
+    var WIP = this.props.title === 'StoryBoxCollection' ? '* Work In Progress *' : '';
     return (
       <div className='small-12 medium-6 large-4 columns'>
       	<div className='project'>
@@ -24,18 +42,16 @@ var Project = React.createClass({
 	      				<Icon type='github'/>
 	      			</a>
 	      		</div>
-	      		<div className='goTo'>
-	      			<a target='_blank' href={ this.props.website } >
-	      				View Website
-	      				<Icon type='arrow'/>
-	      			</a>
-	      		</div>
+            { this.viewWebsite() }
       		</div>
 
- 			<p className='description'>
- 				{ this.props.description }
- 			</p>
-
+ 			<div className='description'>
+        <div className='wip'>{ WIP }</div>
+ 				<p>{ this.props.description }</p>
+ 			</div>
+      <p className='tech'>
+        <span>Technologies used:</span>  { this.props.tech }
+      </p>
       	</div>
 
       </div>

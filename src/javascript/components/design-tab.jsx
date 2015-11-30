@@ -10,7 +10,8 @@ var Photography = React.createClass({
   displayName: 'Photography',
   render: function() {
     return (
-      <div>
+      <div className='design-tab'>
+        <p>Featured here are some of the freelance design work that I've completed in the past year. All mocks are original work created in Adobe Photoshop.</p>
         <WebDesignProjects />
         <DesignProjects /> 
       

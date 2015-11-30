@@ -1,0 +1,59 @@
+@import 'fonts',
+		'colors';
+
+.about{
+	padding-top: 1rem;
+	margin: 0 auto;
+	max-width: 60rem;
+	height: 38rem;
+	text-align: center;
+	padding-bottom: 60rem;
+	.header{
+		font-size: 3rem;
+		font-family: 'Bellwethers', 'Sacramento';
+		color: $purple;
+	}
+	.icon{
+		width: 3rem;
+		margin: 0 auto;
+		fill: $purple;
+	}
+	p{
+		text-indent: 1rem;
+		text-align: justify;
+		text-justify: inter-word;
+	}
+	.connect{
+		margin: 0 auto;
+		max-width: 18rem;
+		color: $purple;
+		font-size: 0.8rem;
+		text-transform: uppercase;
+		letter-spacing: 0.2rem;
+		padding-bottom: 5rem;
+		& > a > div{
+			color: $purple;
+			text-align: left;
+			border-bottom: 1px dotted $black;
+			height: 3rem;
+			padding: 1rem 1rem 3rem;
+			.icon{
+				position: relative;
+				top: 0.3rem;
+				margin-right: 1rem;
+				display: inline-block;
+				width: 1.5rem;
+			}
+		}
+		& > a > div:hover{
+			color: $black;
+				.icon{
+					fill: $black;
+				}
+		}
+	}
+	.text{
+		padding-bottom: 5rem;
+	}
+
+}

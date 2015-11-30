@@ -3,11 +3,11 @@
 .project{
 	margin:1rem 0 0.5rem;
 	padding: 1.4rem;
-	height:38rem;
+	height:45rem;
 	background-color: rgba(255,255,255,0.3);
 	border-radius: 0.1rem;
 	border:1px solid $grey;
-
+	position: relative;
 
 	.project-title{
 		min-height:4rem;
@@ -18,13 +18,30 @@
 	
 	.description{
 		padding: 0 0.4rem;
-		text-align: left;
+		text-align: justify;
 		text-indent: 2rem;
-		margin: 3rem  0 0 0;
-		font-size: 1.1rem;
-		color: $purple;
-	}
+		margin: 2rem  0 0 0;
+		font-size: 1rem;
+		color: $black;
+		font-size: 0.9rem;
+		text-justify: inter-word;
 
+		span{
+			display: inline-block;
+		}
+	}
+	.tech{
+		color: $black;
+		position: absolute;
+		bottom: 0.3rem;
+		text-align: left;
+		font-size: 0.8rem;
+		span{
+			margin-right: 0.2rem;
+			font-weight: bold;
+		}
+
+	}
   	& > .links{
   		height: 5rem;
   		padding: 1rem 0;
@@ -51,6 +68,20 @@
   				left:0.4rem;
   			}
 	  	}
+
+	  	.grey{
+			cursor: auto;
+			color: $grey;text-decoration: none;
+  			text-transform: uppercase;
+  			letter-spacing: 5px;
+  			color: $grey;
+  			position: relative;
+  			left: 0;
+  			& > .icon{
+  				fill: $grey;
+  			}
+		}
+
 	  	.goTo:first-child{
 	  		border-bottom: 1px solid $purple;
 
@@ -63,6 +94,15 @@
   			width: 1.7rem;
   			margin-left: 1rem;
   		}
+  	}
+  	.wip{
+  		text-align: center;
+ 		font-size: 0.8rem;
+  		background-color: $black;
+  		color: $white;
+  		text-transform: uppercase;
+  		letter-spacing: 0.25rem;
+  		margin: 1rem auto;
   	}
 }
 

@@ -20,8 +20,8 @@ var WebDesignProjects = React.createClass({
         <div className='medium-12 columns'>
           <div className='proj'>
             <div className='details'>
-              <h5>UCCF</h5>
-              <p>Redesign concept of their website from a wordpress template to a modern aestethic company style.</p>
+              <a href={ design.uccf.site }><h5>UCCF</h5></a>
+              <p>{ design.uccf.description }</p>
               <div className='view' onClick={ this.toggleView }>
                 <Icon type='open'/>
               </div>
@@ -38,8 +38,8 @@ var WebDesignProjects = React.createClass({
           
           <div className='proj'>
             <div className='details'>
-              <h5>Logical Reality Design</h5>
-              <p>Redesign concept of their website from a wordpress template to a modern aestethic company style.</p>
+              <a href={ design.lrd.site }><h5>Logical Reality Design</h5></a>
+              <p>{ design.lrd.description }</p>
               <div className='view show-for-medium-only' onClick={ this.toggleView }>
                 <Icon type='open'/>
               </div>
@@ -56,8 +56,8 @@ var WebDesignProjects = React.createClass({
 
           <div className='proj'>
             <div className='details'>
-              <h5>A2Q2</h5>
-              <p>Redesign concept of their website from a wordpress template to a modern aestethic company style.</p>
+              <a href={ design.a2q2.site }><h5>A2Q2</h5></a>
+              <p>{ design.a2q2.description }</p>
               <div className='view' onClick={ this.toggleView }>
                 <Icon type='open'/>
               </div>

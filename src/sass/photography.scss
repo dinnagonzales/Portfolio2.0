@@ -12,10 +12,11 @@
 	}
 	.photography-header{
 		z-index: 100;
-		font-family: 'Bellwethers';
+		font-family: 'Bellwethers', 'Sacramento';
 		color: $purple;
-		width: 19rem;
-		padding: 0 2rem;
+		width: 20rem;
+		font-size: 2rem;
+		padding: 1rem 2rem;
 		margin: 0 auto;
 		background-color: $cream;
 	}

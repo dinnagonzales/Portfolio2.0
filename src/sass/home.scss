@@ -2,41 +2,75 @@
 		'fonts';
 
 .home{
-	
-	padding: 10rem 0 0 0;
+	max-width: 60rem;
+	margin: 0 auto;
+	padding: 4rem 0 10rem;
 	min-height: 38rem;
-	font-size: 1.8rem;
+	font-size: 1.2rem;
 	text-align: center;
-	.row{
+	text-align: center;
+
+	.top{
+		margin-bottom: 2rem;
+	}
+	.tech{
+		margin: 6rem 0;
+		img{
+			width: 4rem;
+			margin: 1rem 2rem;
+		}
+	}
+	.hello{
 		text-align: left;
+		.available{
+			text-align: center;
+			background-color: $black;
+			color: $white;
+			font-size: 0.7rem;
+			text-transform: uppercase;
+			letter-spacing: 0.1rem;
+			padding: 0.3rem;
+		}
+		.find{
+			font-size: 0.9rem;
+			text-transform: uppercase;
+			letter-spacing: 0.1rem;
+			margin: -0.4rem 0 0 0;
+			color: $purple;
+			text-align: center;
+			.icon{
+				cursor: pointer;
+				width: 1rem;
+				display: inline-block;
+				margin: 0 0.5rem;
+				fill: $purple;
+			}
+			.icon:hover{
+				fill: $black;
+			}
+		}
 	}
 	h5{
-		font-size:10rem;
-		font-family: 'Bellwethers';
+		font-size:8rem;
+		font-family: 'Bellwethers', 'Sacramento';
 		color: $purple;
-	}
-	p {
-		font-size: 1.7rem;
 	}
 	
 	.info{
-
-		
-		font-size: 1.2rem;
-		letter-spacing: 0.4rem;
+		max-width: 50rem;
+		font-size: 1rem;
+		letter-spacing: 0.2rem;
 		text-transform: uppercase;
 		
 		.columns{
 			cursor: pointer;
 			text-align: center;
 			border: 1px solid $grey;
-			margin: 0.2rem 0;
-			padding-top: 1rem;
-			padding-bottom: 0.2rem;
+			padding: 1rem;
 			color: $purple;
 			
 			.icon{
-				width: 10rem;
+				width: 6rem;
 				margin: 0 auto;
 				fill: $purple;
 
@@ -54,7 +88,7 @@
 		.columns:hover{
 
 			.icon{
-				width:11rem;
+				width:6.4rem;
 				fill: $black;
 			}
 		}
@@ -67,10 +101,30 @@
 			margin-right: 2rem;
 		}
 	}
-}
-.about{
-	height: 38rem;
-	border: 1px solid green;
-	font-size: 100px;
-
+	.connect, .learn{
+		border: 1px solid $purple;
+		border-radius: 0.2rem;
+		padding: 0.4rem 0;
+	}
+	.learn{
+		cursor: pointer;
+		-webkit-transition: background-color 0.2s ease-out,
+	  		color 0.2s ease-out;
+	  	-moz-transition: background-color 0.2s ease-out,
+	  		color 0.2s ease-out;
+	  	-o-transition: background-color 0.2s ease-out,
+			color 0.2s ease-out;
+		transition: background-color 0.2s ease-out,
+			color 0.2s ease-out;
+	}
+	.learn:hover{
+		color: $white;
+		background-color: $purple;
+		.icon{
+			fill: $white;
+		}
+	}
+	.connect{
+		border: none;
+	}
 }

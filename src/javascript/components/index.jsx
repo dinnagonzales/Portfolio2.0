@@ -38,7 +38,7 @@ var Index = React.createClass({
   render: function() {
     return (
       <div className='container'>
-        <Header />
+        <Header goTo={ this.goTo }/>
         <Navigation goTo={ this.goTo }/>
         { this.renderPage() }
         <Footer />

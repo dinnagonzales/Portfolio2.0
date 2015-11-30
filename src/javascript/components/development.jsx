@@ -31,6 +31,7 @@
  	render: function() {
  		return (
  			<div className='projects'>
+ 				<p>Featured here are some of the projects that I coded and designed while I was a student at General Assembly and some while I was freelancing.</p>
  				{ this.renderDevelopmentProjects() }
  			</div>
  			);

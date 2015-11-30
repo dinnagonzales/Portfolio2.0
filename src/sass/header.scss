@@ -3,46 +3,54 @@
 
 header.page-header{
 	background: url('./assets/flowers.png');
-	background-size: cover;
+	background-size: 1200px 160px;
 	background-repeat: no-repeat;
 	background-position: top center;
-	padding: 3rem;
+	padding: 1rem;
 	text-align: center;
 	img{
-		height: 160px;
+		cursor: pointer;
+		height: 150px;
 		margin: 0 auto;
 	}
 }
 
 footer{
+	font-size: 0.4rem;
 	position: fixed;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	background-color: $black;
 	color: $white;
-	padding: 0.8rem;
+	padding: 0.4rem;
 	letter-spacing: 0.3rem;
 	text-transform: uppercase;
 
 	& > .row{
 		max-width: none;
 	}
-	.columns:first-child{
-		margin:0.4rem 0;
+	.links{
+		text-align: center;
+	}
+	.name{
+		padding: 0.5rem 0 0 0;
+		text-align: center;
+	}
+	.bible{
 		text-align: left;
 	}
-	.columns{
-		text-align: right;
-	}
-	img{
+
+	.icon{
+		fill: $white;
+		display: inline-block;
 		cursor: pointer;
-		width: 1.5rem;
+		width: 1rem;
 		margin-right: 1rem;
 		position: relative;
-		top: 0;
+		top: 0.2rem;
 	}
-	img:hover{
-		top: -0.3rem;
+	.icon:hover{
+		top: -0.2rem;
 	}
 }
